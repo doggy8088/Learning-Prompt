@@ -18,7 +18,7 @@ export default function HeroSection() {
             Learning Prompt
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
-            免费的 Prompt Engineering 教程
+            免費的 Prompt Engineering 課程
           </p>
           <div className="mt-8 flex flex-col gap-4 lg:flex-row">
             <Link

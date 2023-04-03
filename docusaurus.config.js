@@ -9,7 +9,7 @@ const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Learning Prompt',
-  tagline: '免费的 Prompt Engineering 教程',
+  tagline: '免費的 Prompt Engineering 課程',
   url: 'https://learningpromt.wiki',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -75,7 +75,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/thinkingjimmy/Learning-Prompt',
+            href: 'https://github.com/doggy8088/Learning-Prompt',
             label: 'GitHub',
             position: 'right',
           },
