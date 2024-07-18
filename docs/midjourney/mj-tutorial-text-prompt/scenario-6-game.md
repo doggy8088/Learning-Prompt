@@ -8,7 +8,7 @@ sidebar_position: 7
 
 According to Midjourney's official documentation, not necessarily:
 
-> Prompts can be very simple. Single words (or even an emoji!) will produce an image. Very short prompts will rely heavily on Midjourney’s default style, so a more descriptive prompt is better for a unique look. However, **super-long prompts aren’t always better.** Concentrate on the main concepts you want to create.
+> Prompts can be very simple. Single words (or even an emoji!) will produce an image. Very short prompts will rely heavily on Midjourney」s default style, so a more descriptive prompt is better for a unique look. However, **super-long prompts aren」t always better.** Concentrate on the main concepts you want to create.
 
 But you'll find that the prompts shared in the Chinese community are very long. If you look closely or use a translation tool, you'll find some interesting things:
 

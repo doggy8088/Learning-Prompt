@@ -3,11 +3,11 @@ sidebar_position: 2
 ---
 # 🧑‍🎨 Artist List
 
-这个 List 里的内容，我会在我的[小红书账号](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上同步更新。感兴趣的朋友可以去关注下。
+這個 List 裡的內容，我會在我的[小紅書賬號](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上同步更新。感興趣的朋友可以去關注下。
 
 :::info
 
-这份列表并不是我原创的，来自 Midjourney [官方社区的分享](https://docs.google.com/spreadsheets/d/1e2MZ1K6WMTUuxlPAQ_2A0rz-H55NBykb66TY7DuerVg/edit#gid=471187713)，感谢社区。另外，目前这个表格正在编辑中，会补充图片和介绍。后续会逐步补充（也有可能换个工具来记录，目前这个文档工具，对表格支持得不太好）。🚧
+這份清單並不是我原創的，來自 Midjourney [官方社群的分享](https://docs.google.com/spreadsheets/d/1e2MZ1K6WMTUuxlPAQ_2A0rz-H55NBykb66TY7DuerVg/edit#gid=471187713)，感謝社群。另外，目前這個表格正在編輯中，會補充圖片和介紹。後續會逐步補充（也有可能換個工具來記錄，目前這個文件工具，對錶格支援得不太好）。🚧
 
 :::
 
@@ -726,7 +726,7 @@ sidebar_position: 2
 - Georges Seurat
 - Georges Valmier
 - Georges Wolinski
-- Georgia O’Keeffe
+- Georgia O」Keeffe
 - Georgios Jakobides
 - Gerald Brom
 - Gerald Scarfe

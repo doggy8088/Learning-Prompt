@@ -19,7 +19,7 @@ Here's a simple example - I entered a GMAT math question into ChatGPT:
 
 ```other
 If a real estate agent received a commission of 6 percent of the selling price of a certain house, what was the selling price of the house?
-(1) The selling price minus the real estate agent’s commission was $84,600.
+(1) The selling price minus the real estate agent」s commission was $84,600.
 (2) The selling price was 250 percent of the original purchase price of $36,000.
 
 (A) Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.

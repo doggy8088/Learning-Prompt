@@ -1,9 +1,9 @@
 {
-  "label": "😎 基础篇",
+  "label": "😎 基礎篇",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "title": "😎 基础篇",
-    "description": "如果你对 AI 和 Prompt Engineering 不是很了解，建议你从基础篇开始读起。如果你已经了解基本的用法，那可以直接跳去高级篇阅读。"
+    "title": "😎 基礎篇",
+    "description": "如果你對 AI 和 Prompt Engineering 不是很瞭解，建議你從基礎篇開始讀起。如果你已經瞭解基本的用法，那可以直接跳去高階篇閱讀。"
   }
 }

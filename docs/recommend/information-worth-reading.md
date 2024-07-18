@@ -10,8 +10,8 @@ If you have a good tool, please share it with me 🥰
 
 ## Newsletter
 
-- [Ben’s Bites:](https://www.bensbites.co/): The daily AI-related newsletter, which shares new products in each issue, is worth subscribing to.
-- [Lenny’s Newsletter](https://www.lennysnewsletter.com/): It's not primarily about AI, but a newsletter dedicated to products that I subscribe to.
+- [Ben」s Bites:](https://www.bensbites.co/): The daily AI-related newsletter, which shares new products in each issue, is worth subscribing to.
+- [Lenny」s Newsletter](https://www.lennysnewsletter.com/): It's not primarily about AI, but a newsletter dedicated to products that I subscribe to.
 
 ## Video / Course
 

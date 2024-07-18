@@ -2,23 +2,23 @@
 sidebar_position: 6
 ---
 
-# 场景 6：锦上添花——信息解释
+# 場景 6：錦上添花——訊息解釋
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-## 场景介绍
+## 場景介紹
 
-锦上添花下的第二大的场景是信息解释。它跟改写内容有点像，但又不太一样，信息解释有可能提供超过原文内容的信息。
+錦上添花下的第二大的場景是訊息解釋。它跟改寫內容有點像，但又不太一樣，訊息解釋有可能提供超過原文內容的訊息。
 
-举几个信息解释的例子，大家应该就能理解了：
+舉幾個訊息解釋的例子，大家應該就能理解了：
 
-1. 解释代码：比如你看到一段 Python 的代码，但你看不懂，你可以让 AI 解释下代码的含义。
-2. 解释论文：看某篇论文看不懂，或者论文里的某一段看不懂，你也可以让 AI 解释。
+1. 解釋程式碼：比如你看到一段 Python 的程式碼，但你看不懂，你可以讓 AI 解釋下程式碼的含義。
+2. 解釋論文：看某篇論文看不懂，或者論文裡的某一段看不懂，你也可以讓 AI 解釋。
 
-以解释代码为例，它的 prompt 是这样的（此案例来自 OpenAI [官方案例](https://platform.openai.com/examples/default-python-to-natural-language)）：
+以解釋程式碼為例，它的 prompt 是這樣的（此案例來自 OpenAI [官方案例](https://platform.openai.com/examples/default-python-to-natural-language)）：
 
 ```other
 Explanation of what the code does:
@@ -32,7 +32,7 @@ def remove_common_prefix(x, prefix, ws_prefix):
 return x
 ```
 
-以下是 ChatGPT 的 Output，它阐述了这段代码是拿来干什么的，同时还阐述了各个参数的含义：
+以下是 ChatGPT 的 Output，它闡述了這段程式碼是拿來幹什麼的，同時還闡述了各個引數的含義：
 
 ```other
 This is a Python function called remove_common_prefix that takes in three parameters: x, prefix, and ws_prefix.

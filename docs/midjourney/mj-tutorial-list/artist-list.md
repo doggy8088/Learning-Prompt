@@ -727,7 +727,7 @@ This list is not my original work, but compiled and shared by the Midjourney [of
 - Georges Seurat
 - Georges Valmier
 - Georges Wolinski
-- Georgia O’Keeffe
+- Georgia O」Keeffe
 - Georgios Jakobides
 - Gerald Brom
 - Gerald Scarfe

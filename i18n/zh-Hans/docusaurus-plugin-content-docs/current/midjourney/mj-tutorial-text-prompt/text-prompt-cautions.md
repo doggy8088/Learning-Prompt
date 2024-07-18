@@ -2,47 +2,47 @@
 sidebar_position: 1
 ---
 
-# 撰写 Text Prompt 注意事项
+# 撰寫 Text Prompt 注意事項
 
-Midjourney 跟 ChatGPT 在 prompt 的使用上有很多不一样的地方，本章会详细介绍下 Midjourney 的 text prompt 区别。
+Midjourney 跟 ChatGPT 在 prompt 的使用上有很多不一樣的地方，本章會詳細介紹下 Midjourney 的 text prompt 區別。
 
-## 语法
+## 語法
 
-首先 Midjourney 基本上是不懂语法的，所以即使你语法错了，只要词对了，也能生成图片。。
+首先 Midjourney 基本上是不懂語法的，所以即使你語法錯了，只要詞對了，也能生成圖片。。
 
-另外，不懂语法也导致了另一个问题：prompt 不是越长越好。特别是各种定语从句，它根本就不懂，还不如把指令用逗号隔开，一个个输入。以下是[官方推荐](https://docs.google.com/document/d/e/2PACX-1vRHOxyEb-ERGi-BdZM8Z_piEP54m4HwO0z8scjmEurEp2UZVA6rFxvyKd15elYVHUWfP1oSA4CQFwxr/pub?utm_source=docs.google.com&utm_medium=tutorial&utm_campaign=midjourney)的语法建议：
+另外，不懂語法也導致了另一個問題：prompt 不是越長越好。特別是各種定語從句，它根本就不懂，還不如把指令用逗號隔開，一個個輸入。以下是[官方推薦](https://docs.google.com/document/d/e/2PACX-1vRHOxyEb-ERGi-BdZM8Z_piEP54m4HwO0z8scjmEurEp2UZVA6rFxvyKd15elYVHUWfP1oSA4CQFwxr/pub?utm_source=docs.google.com&utm_medium=tutorial&utm_campaign=midjourney)的語法建議：
 
-- 使用形容词+名词的词序来替换介词短语。
-   - hair flowing in the wind 应该改为 flowing hair
-   - a carrot for a nose 应该改为 carrot nose
-- 使用非常具体的动词来替换介词短语。
-   - a girl with a flashlight 应该改为 a girl using a flashlight
-   - a girl with a big smile on her face 应该改为 smiling girl
+- 使用形容詞+名詞的詞序來替換介詞短語。
+   - hair flowing in the wind 應該改為 flowing hair
+   - a carrot for a nose 應該改為 carrot nose
+- 使用非常具體的動詞來替換介詞短語。
+   - a girl with a flashlight 應該改為 a girl using a flashlight
+   - a girl with a big smile on her face 應該改為 smiling girl
 
-最后， Midjourney 是不会区分大小写的。
+最後， Midjourney 是不會區分大小寫的。
 
-## 单词
+## 單詞
 
-在单词的部分，Midjourney 跟 ChatGPT 有点类似，它对同义词的理解也不是很好。比如举两个例子：
+在單詞的部分，Midjourney 跟 ChatGPT 有點類似，它對同義詞的理解也不是很好。比如舉兩個例子：
 
-1. big （大）这个词，到底指多大？越具象的大，对于 Midjourney 来说，效果越好，比如用 gigantic 就比用通用的 big 好。
-2. cats（猫）这个词是个复数，但到底是多少只？对于 Midjourney 来说，two cats（两只猫）比 cats 更明确。
+1. big （大）這個詞，到底指多大？越具象的大，對於 Midjourney 來說，效果越好，比如用 gigantic 就比用通用的 big 好。
+2. cats（貓）這個詞是個複數，但到底是多少隻？對於 Midjourney 來說，two cats（兩隻貓）比 cats 更明確。
 
-另外，Midjourney 还能用 emoji 代替单词（我觉得本质上 emoji 也是单词），算是一个比较有意思的特性。
+另外，Midjourney 還能用 emoji 代替單詞（我覺得本質上 emoji 也是單詞），算是一個比較有意思的屬性。
 
-## 与其说不要什么，不如说要什么
+## 與其說不要什麼，不如說要什麼
 
-这个跟 ChatGPT 类似，你应该将你想要的东西说清楚，而不是告诉 Midjourney 不要什么，如果你想让 Midjourney 不生成某样东西，就需要用到 参数 — no。
+這個跟 ChatGPT 類似，你應該將你想要的東西說清楚，而不是告訴 Midjourney 不要什麼，如果你想讓 Midjourney 不生成某樣東西，就需要用到 引數 — no。
 
-## 你不说，模型就会随机给你
+## 你不說，模型就會隨機給你
 
-因为图像信息的信息量远超过文字，所以很多时候，Midjourney 会随机填充一些内容给你，它既是缺陷，也是亮点功能。因为当你不在 prompt 里说明这些词时，你就能获得发散的结果。
+因為影象訊息的訊息量遠超過文字，所以很多時候，Midjourney 會隨機填充一些內容給你，它既是缺陷，也是亮點功能。因為當你不在 prompt 裡說明這些詞時，你就能獲得發散的結果。
 
-如果你想减少这些随机性，就需要用到一些 prompt 框架（或者所谓的模板），本教程会由浅入深地将这个框架教给你。
+如果你想減少這些隨機性，就需要用到一些 prompt 框架（或者所謂的樣板），本教程會由淺入深地將這個框架教給你。
 
-## 参数
+## 引數
 
-Midjourney 还有一点跟 ChatGPT 有较大差异，它允许你在 prompt 里加入参数，而且这些参数相对来说一致性都比较好，所以如果你想实现的功能，参数里支持，那优先使用参数，而不是在主体里描述。你会在后续的教程中学到如何善用参数。
+Midjourney 還有一點跟 ChatGPT 有較大差異，它允許你在 prompt 里加入引數，而且這些引數相對來說一致性都比較好，所以如果你想實現的功能，引數裡支援，那優先使用引數，而不是在主體裡描述。你會在後續的教程中學到如何善用引數。
 
-另外，需要注意，本教程生成的图片默认为 V5 版本，所以我没有在 prompt 里就加 v5 参数。
+另外，需要注意，本教程生成的圖片預設為 V5 版本，所以我沒有在 prompt 裡就加 v5 引數。
 

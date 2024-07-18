@@ -2,26 +2,26 @@
 sidebar_position: 2
 ---
 
-# Midjourney Prompt 基本结构
+# Midjourney Prompt 基本結構
 
-在 Midjourney 的官方介绍文档里，介绍了最简单的 Prompt 结构是这样的：
+在 Midjourney 的官方介紹文件裡，介紹了最簡單的 Prompt 結構是這樣的：
 
 <img src={"https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/AE1E1253-DDEF-4DCE-83A9-CF5671941E55_2/TXDqmXTALidJpoDX9YyUyDy3WX3n4nOOcOj3yRgRMxoz/MJ154.png"} style={{width: 500}} />
 
 
-但我觉得上面那个 Prompt 过于简单了 😂 ，反而 Advanced Prompt 更适合学习：
+但我覺得上面那個 Prompt 過於簡單了 😂 ，反而 Advanced Prompt 更適合學習：
 
 ![MJ155.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/064065D3-8609-4C1C-A741-F435CDBD9B3F_2/0YBkNJEv93HhtapyPQqCwOuJoHUvkqrdrKcv2xCCXF8z/MJ155.png)
 
-## Image Prompts（选填）
+## Image Prompts（選填）
 
-Prompt 分成三个部分。第一个是 Image，这个属于选填，可以填也可以不填。
+Prompt 分成三個部分。第一個是 Image，這個屬於選填，可以填也可以不填。
 
-先说下这个 Image URL 是干什么用的，有很多玩法，比如将两张图合并为一张，大家可以看看下面这个例子，我就是将一个大理石雕像和花朵的图片上传到 Discord：
+先說下這個 Image URL 是幹什麼用的，有很多玩法，比如將兩張圖合併為一張，大家可以看看下面這個例子，我就是將一個大理石雕像和花朵的圖片上傳到 Discord：
 
 ![MJ156.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/6E42DCB6-F8DF-4738-B5AF-F2353EBF7C10_2/pe8CmiNNOmi2gXhwVbuMmJa1xZ8XSXB5HzLbRsACbxUz/MJ156.png)
 
-然后让 Midjourney blend （混合）一下（后续 blend 章节会介绍更多用法）后，就能生成下面这种图片：
+然後讓 Midjourney blend （混合）一下（後續 blend 章節會介紹更多用法）後，就能生成下面這種圖片：
 
 <img 
     src={
@@ -32,29 +32,29 @@ Prompt 分成三个部分。第一个是 Image，这个属于选填，可以填�
 
 需要注意的是：
 
-- 你输入的是图片的 URL 地址，而且必须是公开可访问的地址。
-- 图片格式仅支持 png、gif 和 jpg。
-- 你最多只能放两张图的 URL，或者一张图的 URL + 一段话。
+- 你輸入的是圖片的 URL 地址，而且必須是公開可訪問的地址。
+- 圖片格式僅支援 png、gif 和 jpg。
+- 你最多只能放兩張圖的 URL，或者一張圖的 URL + 一段話。
 
-如果你不想将图片上传到一些图床服务器，也可以使用 Discord 的图床，你可以私聊 Midjourney Bot 然后通过上传图片的方式，将图片先发到 Discord 上，然后右键复制图片链接，像这样：
+如果你不想將圖片上傳到一些圖床伺服器，也可以使用 Discord 的圖床，你可以私聊 Midjourney Bot 然後透過上傳圖片的方式，將圖片先發到 Discord 上，然後右鍵複製圖片連結，像這樣：
 
 ![AnimatedImage.gif](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/06D3F8EB-B80E-4B98-B177-8339182996F4_2/QAZCtNM71Smrx5JoIyOby7Wng3T5lSRpq17bFNxfHLIz/AnimatedImage.gif)
 
 ## Text Prompt
 
-这个就是你希望 AI 生成的图片的描述。这个有非常多的技巧，后续会详细介绍。这里我想说下，Midjourney 跟 ChatGPT 有点不一样：
+這個就是你希望 AI 生成的圖片的描述。這個有非常多的技巧，後續會詳細介紹。這裡我想說下，Midjourney 跟 ChatGPT 有點不一樣：
 
-1. 无法理解句子结构和语法：Midjourney 没法像 ChatGPT 那样懂你说的话。类比的话，Midjourney 更像是命令式编程，ChatGPT 更像是声明式编程，你需要给 Midjourney 完整的指令，它才有可能生成你满意的结果。
-2. Midjourney 有违禁词的设计：有些词语无法输入，比如 🍑 emoji 就没法输入，因为这个 emoji 是 butts 的俚语，常常会导致模型生成一些不太好的图片，所以也被禁止了。
+1. 無法理解句子結構和語法：Midjourney 沒法像 ChatGPT 那樣懂你說的話。類比的話，Midjourney 更像是指令式程式設計，ChatGPT 更像是宣告式程式設計，你需要給 Midjourney 完整的指令，它才有可能生成你滿意的結果。
+2. Midjourney 有違禁詞的設計：有些詞語無法輸入，比如 🍑 emoji 就沒法輸入，因為這個 emoji 是 butts 的俚語，常常會導致模型生成一些不太好的圖片，所以也被禁止了。
 
 
 :::tip 提示
 
-关于如何撰写 text prompt 我会在[🖊️ Text Prompt 篇](/docs/midjourney/mj-tutorial-text-prompt/text-prompt-cautions)介绍。
+關於如何撰寫 text prompt 我會在[🖊️ Text Prompt 篇](/docs/midjourney/mj-tutorial-text-prompt/text-prompt-cautions)介紹。
 
 ::: 
 
-## Parameter（参数）
+## Parameter（引數）
 
-Midjourney 大约有 20 多个参数设置项，我会在下一章介绍几个常用参数。了解完基本参数后，你应该就能用 Midjourney 生成不错的图了。
+Midjourney 大約有 20 多個引數設定項，我會在下一章介紹幾個常用引數。瞭解完基本引數後，你應該就能用 Midjourney 生成不錯的圖了。
 

@@ -2,17 +2,17 @@
 sidebar_position: 3
 ---
 
-# 基本原则 & 建议
+# 基本原則 & 建議
 
-在和 ChatGPT 对话时，亦或者在使用和设计 prompt 时，有以下几个原则与建议。记住这几个原则，能让你写出更好的 prompt 😁
+在和 ChatGPT 對話時，亦或者在使用和設計 prompt 時，有以下幾個原則與建議。記住這幾個原則，能讓你寫出更好的 prompt 😁
 
-## 原则一：建议使用最新的模型
+## 原則一：建議使用最新的模型
 
-如果你是直接使用 AI 产品，比如 ChatGPT 或者 Midjourney，那无需在意这个原则。如果你是通过 API 或者 OpenAI Playground 的方式使用，则建议你先使用最新的模型测试。
+如果你是直接使用 AI 產品，比如 ChatGPT 或者 Midjourney，那無需在意這個原則。如果你是透過 API 或者 OpenAI Playground 的方式使用，則建議你先使用最新的模型測試。
 
-## 原则二：Prompt 里最好包含完整的信息
+## 原則二：Prompt 裡最好包含完整的訊息
 
-这个是对结果影响最大的因素。比如如果你想让 AI 写一首关于 OpenAI 的诗。
+這個是對結果影響最大的因素。比如如果你想讓 AI 寫一首關於 OpenAI 的詩。
 
 Less effective prompt:
 
@@ -20,7 +20,7 @@ Less effective prompt:
 Write a poem about OpenAI.
 ```
 
-它生成的答案可能就会很宽泛，而更好的方式是增加更多的信息。
+它生成的答案可能就會很寬泛，而更好的方式是增加更多的訊息。
 
 Better prompt:
 
@@ -28,31 +28,31 @@ Better prompt:
 Write a short inspiring poem about OpenAI, focusing on the recent DALL-E product launch (DALL-E is a text to image ML model) in the style of a {famous poet}
 ```
 
-## 原则三：Prompt 最好简洁易懂，并减少歧义
+## 原則三：Prompt 最好簡潔易懂，並減少歧義
 
-这个比较好理解，即使你跟人说话，说一些简单的短句，对方也会更容易听懂，AI 也是这样。另外，在 prompt 里也需要减少一些歧义，少用模棱两可的词语。
+這個比較好理解，即使你跟人說話，說一些簡單的短句，對方也會更容易聽懂，AI 也是這樣。另外，在 prompt 裡也需要減少一些歧義，少用模稜兩可的詞語。
 
-比如像这个就很不明确，什么叫 not too much more？
+比如像這個就很不明確，什麼叫 not too much more？
 
 ```other
 The description for this product should be fairly short, a few sentences only, and not too much more.
 ```
 
-更好的 prompt 是这样的，明确告知要写多少句话，就比较明确：
+更好的 prompt 是這樣的，明確告知要寫多少句話，就比較明確：
 
 ```other
 Use a 3 to 5 sentence paragraph to describe this product.
 ```
 
-另外需要注意的是，简单并不代表简短。你的 prompt 也可以很长，只要你的 prompt 描述更充分就可以，即使长一点也没有关系。
+另外需要注意的是，簡單並不代表簡短。你的 prompt 也可以很長，只要你的 prompt 描述更充分就可以，即使長一點也沒有關係。
 
-## 原则四：Prompt 要使用正确的语法、拼写，以及标点
+## 原則四：Prompt 要使用正確的語法、拼寫，以及標點
 
-特别是在使用英语的 prompt 的时候，一定要注意语法和拼写。
+特別是在使用英語的 prompt 的時候，一定要注意語法和拼寫。
 :::info 🚧
-例子待补充
+例子待補充
 :::
 
-## 原则五：从简单的先开始，并给产品多一点耐心
+## 原則五：從簡單的先開始，並給產品多一點耐心
 
-最后一点算是我个人的建议。如我在前面提到的例子 ` What is 100*100/40*56？`一样，如果发现机器理解错误，不妨补充点信息，不妨多实验几次，给 AI 多一点耐心。
+最後一點算是我個人的建議。如我在前面提到的例子 ` What is 100*100/40*56？`一樣，如果發現機器理解錯誤，不妨補充點訊息，不妨多實驗幾次，給 AI 多一點耐心。

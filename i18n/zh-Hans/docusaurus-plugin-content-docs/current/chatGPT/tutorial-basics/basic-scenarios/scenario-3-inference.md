@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 场景 3：推理
+# 場景 3：推理
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
@@ -10,17 +10,17 @@ sidebar_position: 3
 </head>
 
 
-## 场景介绍
+## 場景介紹
 
-在问答这个大场景下，还有一个子场景是推理，这个场景非常有意思，而且是个非常值得深挖的场景，prompt 在此场景里发挥的作用非常大。
+在問答這個大場景下，還有一個子場景是推理，這個場景非常有意思，而且是個非常值得深挖的場景，prompt 在此場景裡發揮的作用非常大。
 
-如果你想用 ChatGPT API 做点什么小应用，我建议可以从这个场景入手，相对来说没有其他场景那么红海。
+如果你想用 ChatGPT API 做點什麼小應用，我建議可以從這個場景入手，相對來說沒有其他場景那麼紅海。
 
-举个比较简单的例子，我将美国工商管理硕士的入学考试 GMAT 的一道数学题输入进了 ChatGPT：
+舉個比較簡單的例子，我將美國工商管理碩士的入學考試 GMAT 的一道數學題輸入進了 ChatGPT：
 
 ```other
 If a real estate agent received a commission of 6 percent of the selling price of a certain house, what was the selling price of the house?
-(1) The selling price minus the real estate agent’s commission was $84,600.
+(1) The selling price minus the real estate agent」s commission was $84,600.
 (2) The selling price was 250 percent of the original purchase price of $36,000.
 
 (A) Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.
@@ -30,21 +30,21 @@ If a real estate agent received a commission of 6 percent of the selling price o
 (E) Statements (1) and (2) TOGETHER are NOT sufficient.
 ```
 
-这道题目的中文意思是这样的（你不妨也思考下这个题目？）：
+這道題目的中文意思是這樣的（你不妨也思考下這個題目？）：
 
 ```other
-如果一个房地产经纪人的佣金是某个房子的售价的6％，那么这个房子的售价是多少？
-（1）售价减去房地产经纪人的佣金为84,600美元。
-（2）购买价是36,000美元，售价是购买价的250%。
+如果一個房地產經紀人的佣金是某個房子的售價的6％，那麼這個房子的售價是多少？
+（1）售價減去房地產經紀人的佣金為84,600美元。
+（2）購買價是36,000美元，售價是購買價的250%。
 
-（A）仅陈述（1）足以回答问题，但仅陈述（2）不能回答问题。
-（B）仅陈述（2）足以回答问题，但仅陈述（1）不能回答问题。
-（C）两个陈述合起来足以回答问题，但没有一个陈述单独足以回答问题。
-（D）每个陈述单独足以回答问题。
-（E）陈述（1）和（2）合起来不能回答问题。
+（A）僅陳述（1）足以回答問題，但僅陳述（2）不能回答問題。
+（B）僅陳述（2）足以回答問題，但僅陳述（1）不能回答問題。
+（C）兩個陳述合起來足以回答問題，但沒有一個陳述單獨足以回答問題。
+（D）每個陳述單獨足以回答問題。
+（E）陳述（1）和（2）合起來不能回答問題。
 ```
 
-它的 Output 是这样的，它会根据题目的要求去推理和运算：
+它的 Output 是這樣的，它會根據題目的要求去推理和運算：
 
 ```other
 Let's assume the selling price of the house is S.
@@ -66,27 +66,27 @@ Since both statements individually provide the same answer, we can conclude that
 Hence, the answer is (D) EACH statement ALONE is sufficient.
 ```
 
-翻译成中文是这样的：
+翻譯成中文是這樣的：
 
 ```other
-假设房子的售价为S。
+假設房子的售價為S。
 
-根据所给信息，房地产经纪人的佣金是S的6％，即0.06S。
+根據所給訊息，房地產經紀人的佣金是S的6％，即0.06S。
 
-因此，在支付佣金后卖方收到的金额为（S-0.06S）= 0.94S。
+因此，在支付佣金後賣方收到的金額為（S-0.06S）= 0.94S。
 
-陈述（1）告诉我们，0.94S = 84,600美元。解出S，我们得到S = $90,000。
+陳述（1）告訴我們，0.94S = 84,600美元。解出S，我們得到S = $90,000。
 
-因此，陈述（1）单独足以确定房子的售价。
+因此，陳述（1）單獨足以確定房子的售價。
 
-陈述（2）告诉我们，售价是原始购买价的250％，这意味着S = 2.5 * $36,000 = $90,000。
+陳述（2）告訴我們，售價是原始購買價的250％，這意味著S = 2.5 * $36,000 = $90,000。
 
-因此，陈述（2）单独也足以确定房子的售价。
+因此，陳述（2）單獨也足以確定房子的售價。
 
-由于两个陈述分别提供相同的答案，我们可以得出结论，它们共同足以确定房子的售价。
+由於兩個陳述分別提供相同的答案，我們可以得出結論，它們共同足以確定房子的售價。
 
-因此，答案是（D）每个陈述单独足以回答问题。
+因此，答案是（D）每個陳述單獨足以回答問題。
 ```
 
-这个场景还比较简单，我就不在这举更多例子了，你可以将各种题目输入进 ChatGPT 里试试。
+這個場景還比較簡單，我就不在這舉更多例子了，你可以將各種題目輸入進 ChatGPT 裡試試。
 

@@ -4,55 +4,55 @@ sidebar_position: 2
 
 # Zero-Shot Prompts
 
-在基础篇里的推理场景，我提到了 Zero-Shot Prompting 的技术，本章会详细介绍它是什么，以及使用它的技巧。
+在基礎篇裡的推理場景，我提到了 Zero-Shot Prompting 的技術，本章會詳細介紹它是什麼，以及使用它的技巧。
 
-## 介绍
+## 介紹
 
-Zero-Shot Prompting 是一种自然语言处理技术，可以让计算机模型根据提示或指令进行任务处理。各位常用的 ChatGPT 就用到这个技术。
+Zero-Shot Prompting 是一種自然語言處理技術，可以讓電腦模型根據提示或指令進行任務處理。各位常用的 ChatGPT 就用到這個技術。
 
-传统的自然语言处理技术通常需要在大量标注数据上进行有监督的训练，以便模型可以对特定任务或领域进行准确的预测或生成输出。相比之下，Zero-Shot Prompting 的方法更为灵活和通用，因为它不需要针对每个新任务或领域都进行专门的训练。相反，它通过使用预先训练的语言模型和一些示例或提示，来帮助模型进行推理和生成输出。
+傳統的自然語言處理技術通常需要在大量標註資料上進行有監督的訓練，以便模型可以對特定任務或領域進行準確的預測或生成輸出。相比之下，Zero-Shot Prompting 的方法更為靈活和通用，因為它不需要針對每個新任務或領域都進行專門的訓練。相反，它透過使用預先訓練的語言模型和一些範例或提示，來幫助模型進行推理和生成輸出。
 
-举个例子，我们可以给 ChatGPT 一个简短的 prompt，比如 `描述某部电影的故事情节`，它就可以生成一个关于该情节的摘要，而不需要进行电影相关的专门训练。
+舉個例子，我們可以給 ChatGPT 一個簡短的 prompt，比如 `描述某部電影的故事情節`，它就可以生成一個關於該情節的摘要，而不需要進行電影相關的專門訓練。
 
-## 缺点
+## 缺點
 
-但这个技术并不是没有缺点的：
+但這個技術並不是沒有缺點的：
 
-1. Zero-Shot Prompting 技术依赖于预训练的语言模型，这些模型可能会受到训练数据集的限制和偏见。比如在使用 ChatGPT 的时候，它常常会在一些投资领域，使用男性的「他」，而不是女性的「她」。那是因为训练 ChatGPT 的数据里，提到金融投资领域的内容，多为男性。
-2. 尽管 Zero-Shot Prompting 技术不需要为每个任务训练单独的模型，但为了获得最佳性能，它需要大量的样本数据进行微调。像 ChatGPT 就是一个例子，它的样本数量是过千亿。
-3. 由于 Zero-Shot Prompting 技术的灵活性和通用性，它的输出有时可能不够准确，或不符合预期。这可能需要对模型进行进一步的微调或添加更多的提示文本来纠正。
+1. Zero-Shot Prompting 技術依賴於預訓練的語言模型，這些模型可能會受到訓練資料集的限制和偏見。比如在使用 ChatGPT 的時候，它常常會在一些投資領域，使用男性的「他」，而不是女性的「她」。那是因為訓練 ChatGPT 的資料裡，提到金融投資領域的內容，多為男性。
+2. 儘管 Zero-Shot Prompting 技術不需要為每個任務訓練單獨的模型，但為了獲得最佳效能，它需要大量的樣本數據進行微調。像 ChatGPT 就是一個例子，它的樣本數量是過千億。
+3. 由於 Zero-Shot Prompting 技術的靈活性和通用性，它的輸出有時可能不夠準確，或不符合預期。這可能需要對模型進行進一步的微調或新增更多的提示文字來糾正。
 
 ## 技巧 7：Zero-Shot Chain of Thought
 
-基于上述的第三点缺点，研究人员就找到了一个叫 Chain of Thought 的技巧。
+基於上述的第三點缺點，研究人員就找到了一個叫 Chain of Thought 的技巧。
 
-这个技巧使用起来非常简单，只需要在问题的结尾里放一句 `Let‘s think step by step` （让我们一步步地思考），模型输出的答案会更加准确。
+這個技巧使用起來非常簡單，只需要在問題的結尾裡放一句 `Let「s think step by step` （讓我們一步步地思考），模型輸出的答案會更加準確。
 
-这个技巧来自于 Kojima 等人 2022 年的论文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在论文里提到，当我们向模型提一个逻辑推理问题时，模型返回了一个错误的答案，但如果我们在问题最后加入 `Let‘s think step by step` 这句话之后，模型就生成了正确的答案：
+這個技巧來自於 Kojima 等人 2022 年的論文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在論文裡提到，當我們向模型提一個邏輯推理問題時，模型回傳了一個錯誤的答案，但如果我們在問題最後加入 `Let「s think step by step` 這句話之後，模型就生成了正確的答案：
 
 ![ZeroShotChainOfThought001.png](./assets/ZeroShotChainOfThought001.png)
 
-论文里有讲到原因，感兴趣的朋友可以去看看，我简单解释下为什么（🆘 如果你有更好的解释，不妨反馈给我）：
+論文裡有講到原因，感興趣的朋友可以去看看，我簡單解釋下為什麼（🆘 如果你有更好的解釋，不妨反饋給我）：
 
-1. 首先各位要清楚像 ChatGPT 这类产品，它是一个统计语言模型，本质上是基于过去看到过的所有数据，用统计学意义上的预测结果进行下一步的输出（这也就是为什么你在使用 ChatGPT 的时候，它的答案是一个字一个字地吐出来，而不是直接给你的原因，因为答案是一个字一个字算出来的）。
-2. 当它拿到的数据里有逻辑，它就会通过统计学的方法将这些逻辑找出来，并将这些逻辑呈现给你，让你感觉到它的回答很有逻辑。
-3. 在计算的过程中，模型会进行很多假设运算（不过暂时不知道它是怎么算的）。比如解决某个问题是从 A 到 B 再到 C，中间有很多假设。
-4. 它第一次算出来的答案错误的原因，只是因为它在中间跳过了一些步骤（B）。而让模型一步步地思考，则有助于其按照完整的逻辑链（A > B > C）去运算，而不会跳过某些假设，最后算出正确的答案。
+1. 首先各位要清楚像 ChatGPT 這類產品，它是一個統計語言模型，本質上是基於過去看到過的所有資料，用統計學意義上的預測結果進行下一步的輸出（這也就是為什麼你在使用 ChatGPT 的時候，它的答案是一個字一個字地吐出來，而不是直接給你的原因，因為答案是一個字一個字算出來的）。
+2. 當它拿到的資料裡有邏輯，它就會透過統計學的方法將這些邏輯找出來，並將這些邏輯呈現給你，讓你感覺到它的回答很有邏輯。
+3. 在計算的過程中，模型會進行很多假設運算（不過暫時不知道它是怎麼算的）。比如解決某個問題是從 A 到 B 再到 C，中間有很多假設。
+4. 它第一次算出來的答案錯誤的原因，只是因為它在中間跳過了一些步驟（B）。而讓模型一步步地思考，則有助於其按照完整的邏輯鏈（A > B > C）去運算，而不會跳過某些假設，最後算出正確的答案。
 
-按照论文里的解释，零样本思维链涉及两个补全结果，左侧气泡表示基于提示输出的第一次的结果，右侧气泡表示其收到了第一次结果后，将最开始的提示一起拿去运算，最后得出了正确的答案：
+按照論文裡的解釋，零樣本思維鏈涉及兩個補全結果，左側氣泡表示基於提示輸出的第一次的結果，右側氣泡表示其收到了第一次結果後，將最開始的提示一起拿去運算，最後得出了正確的答案：
 
 ![ZeroShotChainOfThought002.png](./assets/ZeroShotChainOfThought002.png)
 
-这个技巧，除了用于解决复杂问题外，还适合生成一些连贯主题的内容，比如写长篇文章、电影剧本等。
+這個技巧，除了用於解決複雜問題外，還適合生成一些連貫主題的內容，比如寫長篇文章、電影劇本等。
 
-但需要注意其缺点，连贯不代表，它就一定不会算错，如果其中某一步骤算错了，错误会因为逻辑链，逐步将错误积累，导致生成的文本可能出现与预期不符的内容。
+但需要注意其缺點，連貫不代表，它就一定不會算錯，如果其中某一步驟算錯了，錯誤會因為邏輯鏈，逐步將錯誤積累，導致生成的文字可能出現與預期不符的內容。
 
-另外，根据 Wei 等人在 [2022 年的论文](https://arxiv.org/pdf/2201.11903.pdf)表明，它仅在大于等于 100B 参数的模型中使用才会有效。如果你使用的是小样本模型，这个方法不会生效。
+另外，根據 Wei 等人在 [2022 年的論文](https://arxiv.org/pdf/2201.11903.pdf)表明，它僅在大於等於 100B 引數的模型中使用才會有效。如果你使用的是小樣本模型，這個方法不會生效。
 
 ---
 
-2023-04-12 更新（感谢[qq-740943515](https://github.com/qq-740943515)分享）：
-根据 Yongchao Zhou 等人的[最新论文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是：
+2023-04-12 更新（感謝[qq-740943515](https://github.com/qq-740943515)分享）：
+根據 Yongchao Zhou 等人的[最新論文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是：
 
 ```
 Let's work this out in a step by step way to be sure we have the right answer.
@@ -60,7 +60,7 @@ Let's work this out in a step by step way to be sure we have the right answer.
 
 ---
 
-在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一个这个技巧的另一种用法，不仅仅只是让 AI 按步骤行事，还会告知 AI 每一步要做什么。比如这个案例（注意这个是 python 代码）：
+在吳恩達的 ChatGPT Prompt Engineering [課程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一個這個技巧的另一種用法，不僅僅只是讓 AI 按步驟行事，還會告知 AI 每一步要做什麼。比如這個案例（注意這個是 python 程式碼）：
 
 ```
 prompt_2 = f"""
@@ -83,12 +83,12 @@ Text: <{text}>
 """
 ```
 
-简单解释下这个代码：
+簡單解釋下這個程式碼：
 
-1. 开头是让 AI 按照 1 ～ 4 步运行
-2. 然后再让 AI 根据特定格式输出内容
+1. 開頭是讓 AI 按照 1 ～ 4 步執行
+2. 然後再讓 AI 根據特定格式輸出內容
 
-最后 AI 的输出是这样的：
+最後 AI 的輸出是這樣的：
 
 ```
 Summary: Jack and Jill go on a quest to fetch water, but misfortune strikes and they tumble down the hill, returning home slightly battered but with their adventurous spirits undimmed.
@@ -97,7 +97,7 @@ Names: Jack, Jill
 Output JSON: {"french_summary": "Jack et Jill partent en quête d'eau, mais la malchance frappe et ils dégringolent la colline, rentrant chez eux légèrement meurtris mais avec leurs esprits aventureux intacts.", "num_names": 2}
 ```
 
-上述的案例只是将任务拆解，能让 AI 生成的结果更加符合要求，这个方法同样能提升 AI 的回答准确性，比如这个案例：
+上述的案例只是將任務拆解，能讓 AI 生成的結果更加符合要求，這個方法同樣能提升 AI 的回答準確性，比如這個案例：
 
 ```
 Determine if the student's solution is correct or not.
@@ -127,7 +127,7 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 
 ```
 
-AI 的回答是「The student's solution is correct」。但其实学生的答案是错误的，应该 360x + 100,000，我们将 prompt 调整成这样：
+AI 的回答是「The student's solution is correct」。但其實學生的答案是錯誤的，應該 360x + 100,000，我們將 prompt 調整成這樣：
 
 ```python
 prompt = f"""
@@ -186,7 +186,7 @@ Actual solution:
 """
 ```
 
-本质上，也是将任务分拆成多步，这次 AI 输出的结果是这样的（结果就是正确的了）：
+本質上，也是將任務分拆成多步，這次 AI 輸出的結果是這樣的（結果就是正確的了）：
 
 ```
 Let x be the size of the installation in square feet.
@@ -206,4 +206,4 @@ Student grade:
 Incorrect
 ```
 
-下一章我们会结合 Few-Shot Chain of Thought 来详细讲讲逻辑链的限制。
+下一章我們會結合 Few-Shot Chain of Thought 來詳細講講邏輯鏈的限制。

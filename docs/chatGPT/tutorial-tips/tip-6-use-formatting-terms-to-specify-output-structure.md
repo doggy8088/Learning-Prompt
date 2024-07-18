@@ -22,7 +22,7 @@ Topic 10: ..
 Text: """
 Thank you so much, Fred, for that lovely introduction. And thanks to the Atlantic Council for hosting me today.
 
-The course of the global economy over the past two years has been shaped by COVID-19 and our efforts to fight the pandemic. It’s now evident, though, that the war between Russia and Ukraine has redrawn the contours of the world economic outlook. Vladimir Putin’s unprovoked attack on Ukraine and its people is taking a devastating human toll, with lives tragically lost, families internally displaced or becoming refugees, and communities and cities destroyed.
+The course of the global economy over the past two years has been shaped by COVID-19 and our efforts to fight the pandemic. It」s now evident, though, that the war between Russia and Ukraine has redrawn the contours of the world economic outlook. Vladimir Putin」s unprovoked attack on Ukraine and its people is taking a devastating human toll, with lives tragically lost, families internally displaced or becoming refugees, and communities and cities destroyed.
 ...
 
 """

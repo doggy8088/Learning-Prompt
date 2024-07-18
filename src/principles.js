@@ -2,18 +2,18 @@ import Translate, { translate } from '@docusaurus/Translate'
 
 const PRINCIPLES = [
   {
-    title: '关于本教程',
-    description: <Translate> 如果你不知道如何使用 ChatGPT 或者 Midjourney。那本教程应该能帮到你。这是一份教你如何更好地使用 ChatGPT 和 Midjourney 的免费教程。</Translate>,
+    title: '關於本教程',
+    description: <Translate> 如果你不知道如何使用 ChatGPT 或者 Midjourney。那本教程應該能幫到你。這是一份教你如何更好地使用 ChatGPT 和 Midjourney 的免費教程。</Translate>,
   },
   {
-    title: '它不是什么？',
+    title: '它不是什麼？',
     description:
-      '本教程不是 prompt 大全，如果你预期是找到能直接用的 prompt，建议你谷歌找一找。本教程更多地是教你方法，以及解释这些方法为何有效。本教程也不是权威指南，在这个领域我也只是学生。',
+      '本教程不是 prompt 大全，如果你預期是找到能直接用的 prompt，建議你谷歌找一找。本教程更多地是教你方法，以及解釋這些方法為何有效。本教程也不是權威指南，在這個領域我也只是學生。',
   },
   {
-    title: '为什么会有这个教程？',
+    title: '為什麼會有這個教程？',
     description:
-      '我最近一直在研究 PE 相关的知识，然后发现大多数教程都是英文的，内容都非常好，但对我这种初学者来说，阅读起来还是有点吃力。所以我就萌生出了自己写一份教程的想法，想着通过输出倒逼输入的方式去学习。',
+      '我最近一直在研究 PE 相關的知識，然後發現大多數教程都是英文的，內容都非常好，但對我這種初學者來說，閱讀起來還是有點吃力。所以我就萌生出了自己寫一份教程的想法，想著透過輸出倒逼輸入的方式去學習。',
   },
 ]
 
