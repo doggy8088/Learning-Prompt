@@ -8,11 +8,11 @@
    <strong>ChatGPT and Midjourney tutorials are now included!</strong>
 </p>
 <h4>
-    <a href="https://learningprompt.wiki/">Start Learning</a>
+    <a href="https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/welcome.mdx">Start Learning</a>
     <span> | </span>
     <a href="https://discord.gg/esyCEGhmq9">Our Discord</a>
     <span> | </span>
-    <a href="https://learningprompt.wiki/zh-Hans/docs/welcome">中文版本</a>
+    <a href="https://github.com/thinkingjimmy/Learning-Prompt/blob/main/i18n/zh-Hans/docusaurus-plugin-content-docs/current/welcome.mdx">中文版本</a>
 </h4>
 </div>
 
@@ -20,9 +20,9 @@
 
 This tutorial has three parts. The content covers my journey of learning Prompt Engineering, summarizing some of the experiences and methods. If you are learning Prompt Engineering, I hope this tutorial can help.
 
-1. [AI 101](https://learningprompt.wiki/docs/ai-101): An AI tutorial for everyone. Still working hard on it. Stay tuned.
-2. [ChatGPT Tutorial](https://learningprompt.wiki/docs/chatgpt-learning-path): From basics to advanced, from a user's perspective, this teaches you how to use ChatGPT and how to use it even better.
-3. [Midjourney Tutorial](https://learningprompt.wiki/docs/midjourney-learning-path): Through various examples, this teaches you how to use Midjourney. Even as a beginner, after reading this, you'll be able to quickly get started.
+1. [AI 101](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/ai-101.md): An AI tutorial for everyone. Still working hard on it. Stay tuned.
+2. [ChatGPT Tutorial](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/chatgpt-learning-path.mdx): From basics to advanced, from a user's perspective, this teaches you how to use ChatGPT and how to use it even better.
+3. [Midjourney Tutorial](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/midjourney-learning-path.md): Through various examples, this teaches you how to use Midjourney. Even as a beginner, after reading this, you'll be able to quickly get started.
 
 What this is not:
 
