@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://learningpromt.wiki/blog</id>
+    <title>Learning Prompt Blog</title>
+    <updated>2023-08-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://learningpromt.wiki/blog"/>
+    <subtitle>Learning Prompt Blog</subtitle>
+    <icon>https://learningpromt.wiki/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2023-08-10 Release Note]]></title>
+        <id>https://learningpromt.wiki/blog/2023/08/10/Changelog</id>
+        <link href="https://learningpromt.wiki/blog/2023/08/10/Changelog"/>
+        <updated>2023-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Support English version.]]></summary>
+        <content type="html"><![CDATA[<p>Support English version.</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-08-01 Release Note]]></title>
+        <id>https://learningpromt.wiki/blog/2023/08/01/Changelog</id>
+        <link href="https://learningpromt.wiki/blog/2023/08/01/Changelog"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added a 'Best Practices' section to share how to better use AI tools.]]></summary>
+        <content type="html"><![CDATA[<p>Added a 'Best Practices' section to share how to better use AI tools.</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-05-06 Release Note]]></title>
+        <id>https://learningpromt.wiki/blog/2023/05/06/Changelog</id>
+        <link href="https://learningpromt.wiki/blog/2023/05/06/Changelog"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently after finishing the following tutorials, this update is mainly to update my notes and insights from learning the tutorials to this tutorial:]]></summary>
+        <content type="html"><![CDATA[<p>Recently after finishing the following tutorials, this update is mainly to update my notes and insights from learning the tutorials to this tutorial:</p><ol><li>Andrew Ng's ChatGPT Prompt Engineering <a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank" rel="noopener noreferrer">Course</a></li><li>Wu Jun's <a href="https://www.dedao.cn/course/detail?id=ElLD8OrepAxVvGMsqgJ2oybGdmBnvM" target="_blank" rel="noopener noreferrer">Wu Jun talk GPT</a></li></ol><p>In addition, daily paper collection has been added.</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-04-20 Thanks You!]]></title>
+        <id>https://learningpromt.wiki/blog/2023/04/20/Thanks</id>
+        <link href="https://learningpromt.wiki/blog/2023/04/20/Thanks"/>
+        <updated>2023-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thank you for the feedback from all friends 🥰]]></summary>
+        <content type="html"><![CDATA[<p>Thank you for the feedback from all friends 🥰</p><p>Because I was busy writing tutorials these days, I got busy and forgot about the questionnaire 😭</p><p>Sorry I didn't see the feedback submitted by everyone in time</p><p>Today I took a unified look and revised the content, thank the following friends for their support and feedback:</p><ul><li>TuZaaaaa</li><li>Ziran</li><li>Will Pan</li><li>天香續命丸</li><li>jane</li><li>小龍</li><li>microSiland</li><li>Felix Ai</li><li>jane</li><li>大兔</li><li>木辛</li><li>賀佳</li><li>Nicola</li><li>maslke</li><li>SiriusWy</li><li>麻辣燙只剩燙</li><li>mrhouse</li><li>Youmoo</li><li>yomiko</li><li>wong</li><li>Nishikori</li><li>Youmoo</li><li>Vipuser</li><li>Coie</li><li>DavidT</li><li>Michael.W</li><li>Fred Chan</li><li>養兔子的好人</li><li>小波</li><li>Fred Chan</li><li>Pierre</li><li>阿文</li><li>woodscountry</li><li>jellard.liu</li><li>aki</li><li>BrodyDung</li><li>小熊貓</li><li>傑克陸</li><li>Joe</li><li>郭陽振</li><li>Sourire</li><li>Zhenming</li><li>echo</li><li>張鵬</li><li>daxigua</li><li>Grash</li><li>hey🦈</li><li>Zeot</li><li>我心漫漫</li></ul><p>Thank you again to all friends for your feedback.</p>]]></content>
+        <category label="thanks" term="thanks"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-03-24 Release Note]]></title>
+        <id>https://learningpromt.wiki/blog/2023/03/24/Feature-Plan</id>
+        <link href="https://learningpromt.wiki/blog/2023/03/24/Feature-Plan"/>
+        <updated>2023-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Hello everyone]]></summary>
+        <content type="html"><![CDATA[<p>👋 Hello everyone</p><p>As of March 24, 2023, this tutorial has over 500 stars on Github. Thank you all for your support.</p><p>Starting this week, in addition to ensuring content updates, the site will also update a practice of mine every week. I hope everyone can explore various AI applications with me 😁</p><p>Recently received some questions from friends, I will answer them together here.</p><p><strong>Q1: When will picture prompts be updated?</strong></p><p>To be honest, I've written several, but the more I write, the more I feel that what I'm sharing is just some English words.</p><p>The meaning of image prompts may be smaller, and I think the probability of being eliminated in the short term is greater. So I shelved the writing for the time being, and turned to study some auxiliary tools, which may be more meaningful.</p><p><strong>Q2: Is there a group?</strong></p><p>Sorry, there is no group for the time being.</p><p>Because I still haven't figured out how to provide differentiated value. Just gathering everyone together, I feel the value is relatively small.</p><p><strong>Q3: Will some prompt templates be shared?</strong></p><p><strong>Q4: How to register ChatGPT?</strong></p><p>Sorry, you can search or google this by yourself,.</p><p>Keep Learning &amp; Keep Building</p><p>Jimmy</p>]]></content>
+        <category label="feature" term="feature"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-03-06 Project Release]]></title>
+        <id>https://learningpromt.wiki/blog/2023/03/06/Project-release</id>
+        <link href="https://learningpromt.wiki/blog/2023/03/06/Project-release"/>
+        <updated>2023-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The tutorial is officially released.]]></summary>
+        <content type="html"><![CDATA[<p>The tutorial is officially released.</p>]]></content>
+        <category label="hola" term="hola"/>
+        <category label="release" term="release"/>
+    </entry>
+</feed>

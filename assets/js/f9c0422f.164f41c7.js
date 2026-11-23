@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkribir_website=self.webpackChunkribir_website||[]).push([[6295],{8628:e=>{e.exports=JSON.parse('{"label":"changelog","permalink":"/blog/tags/changelog","allTagsPath":"/blog/tags","count":3}')}}]);

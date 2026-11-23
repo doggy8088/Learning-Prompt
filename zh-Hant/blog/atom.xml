@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://learningpromt.wiki/zh-Hant/blog</id>
+    <title>Learning Prompt Blog</title>
+    <updated>2023-08-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://learningpromt.wiki/zh-Hant/blog"/>
+    <subtitle>Learning Prompt Blog</subtitle>
+    <icon>https://learningpromt.wiki/zh-Hant/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2023-08-10 Release Note]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/08/10/Changelog</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/08/10/Changelog"/>
+        <updated>2023-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[支援英文版本。]]></summary>
+        <content type="html"><![CDATA[<p>支援英文版本。</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-08-01 更新日誌]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/08/01/Changelog</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/08/01/Changelog"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[增加了「最佳實踐」欄目，分享如何更好地使用 AI 工具。]]></summary>
+        <content type="html"><![CDATA[<p>增加了「最佳實踐」欄目，分享如何更好地使用 AI 工具。</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-05-06 更新日誌]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/05/06/Changelog</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/05/06/Changelog"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最近看完了以下教程，本次更新主要是將我學習教程時的筆記和感悟，更新到本教程：]]></summary>
+        <content type="html"><![CDATA[<p>最近看完了以下教程，本次更新主要是將我學習教程時的筆記和感悟，更新到本教程：</p><ol><li>吳恩達的 ChatGPT Prompt Engineering <a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank" rel="noopener noreferrer">課程</a></li><li>吳軍得到課程<a href="https://www.dedao.cn/course/detail?id=ElLD8OrepAxVvGMsqgJ2oybGdmBnvM" target="_blank" rel="noopener noreferrer">《前沿課·吳軍講 GPT》</a></li></ol><p>另外，增加了每日論文的收錄。</p>]]></content>
+        <category label="changelog" term="changelog"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-04-20 感謝送出反饋的各位朋友]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/04/20/Thanks</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/04/20/Thanks"/>
+        <updated>2023-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[因為前陣子都在肝教程，忙著忙著就把問卷給忘了 😭]]></summary>
+        <content type="html"><![CDATA[<p>因為前陣子都在肝教程，忙著忙著就把問卷給忘了 😭</p><p>抱歉，沒有及時看各位送出的反饋~</p><p>今天我統一看了下，並對內容進行了修訂，感謝以下朋友的支援與反饋：</p><ul><li>TuZaaaaa</li><li>Ziran</li><li>Will Pan</li><li>天香續命丸</li><li>jane</li><li>小龍</li><li>microSiland</li><li>Felix Ai</li><li>jane</li><li>大兔</li><li>木辛</li><li>賀佳</li><li>Nicola</li><li>maslke</li><li>SiriusWy</li><li>麻辣燙只剩燙</li><li>mrhouse</li><li>Youmoo</li><li>yomiko</li><li>wong</li><li>Nishikori</li><li>Youmoo</li><li>Vipuser</li><li>Coie</li><li>DavidT</li><li>Michael.W</li><li>Fred Chan</li><li>養兔子的好人</li><li>小波</li><li>Fred Chan</li><li>Pierre</li><li>阿文</li><li>woodscountry</li><li>jellard.liu</li><li>aki</li><li>BrodyDung</li><li>小熊貓</li><li>傑克陸</li><li>Joe</li><li>郭陽振</li><li>Sourire</li><li>Zhenming</li><li>echo</li><li>張鵬</li><li>daxigua</li><li>Grash</li><li>hey🦈</li><li>Zeot</li><li>我心漫漫</li></ul><p>另外，有不少朋友反饋搭建基於知識庫內容的機器人這篇文章裡的程式碼執行錯誤，問題我已經修復了，現在可以順利執行了。</p><p>後續我會定期看各位的 Github 和問卷反饋。
+最後，再次感謝各位朋友的反饋。</p>]]></content>
+        <category label="thanks" term="thanks"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-03-24 後續計劃]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/03/24/Feature-Plan</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/03/24/Feature-Plan"/>
+        <updated>2023-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[👋 Hello 各位朋友]]></summary>
+        <content type="html"><![CDATA[<p>👋 Hello 各位朋友</p><p>截止到 2023 年 3 月 24 日，這個教程在 Github 上已經有 500 多 個 star 了。感謝各位朋友的支援。</p><p>從這周開始，網站除了保證內容的更新外，還會每週更新一篇我的實踐，希望各位能和我一起探索 AI 的各種應用 😁</p><p>最近收到一些朋友的疑問，我在這統一回答一下。</p><p><strong>Q1：什麼時候更新圖片類別的 prompt？</strong></p><p>坦率說來，我已經寫了幾篇了，但越寫越覺得我寫的不過是一些英文單詞分享。</p><p>圖片 prompt 的意義可能更小，且我認為短期內被淘汰的機率更大。所以我暫時擱置了撰寫，進而轉去研究一些輔助工具，可能輔助工具更有意義。</p><p><strong>Q2：有群嗎？</strong></p><p>抱歉，暫時沒有。</p><p>因為我還沒想好該如何提供差異化的價值。只是拉群把大家聚在一起，我覺得價值比較小。</p><p><strong>Q3：會分享一些 prompt 樣板嗎？</strong></p><p><strong>Q4：如何註冊 ChatGPT？</strong></p><p>抱歉，這個各位可以自行百度或谷歌，小紅書上也有不少相關教程。</p><hr><p>也歡迎各位透過以下社交平台關注我：</p><ul><li><a href="https://web.okjike.com/u/1CC74CB0-B6D3-4247-AC48-5C33E8983723" target="_blank" rel="noopener noreferrer">即刻</a>：這是我的個人號，不定期分享 AI 相關的訊息。</li><li><a href="https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&amp;appuid=6073d38d00000000010068a6&amp;apptime=1679646639" target="_blank" rel="noopener noreferrer">小紅書</a>：這個賬號主要是分享一些 AI 使用技巧。</li></ul><p>Keep Learning &amp; Keep Building</p><p>Jimmy</p>]]></content>
+        <category label="feature" term="feature"/>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023-03-06 Project Release]]></title>
+        <id>https://learningpromt.wiki/zh-Hant/blog/2023/03/06/Project-release</id>
+        <link href="https://learningpromt.wiki/zh-Hant/blog/2023/03/06/Project-release"/>
+        <updated>2023-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[教程正式發布。]]></summary>
+        <content type="html"><![CDATA[<p>教程正式發布。</p>]]></content>
+        <category label="hola" term="hola"/>
+        <category label="release" term="release"/>
+    </entry>
+</feed>

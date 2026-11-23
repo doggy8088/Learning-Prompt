@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkribir_website=self.webpackChunkribir_website||[]).push([[8213],{2829:e=>{e.exports=JSON.parse('{"label":"release","permalink":"/zh-Hant/blog/tags/release","allTagsPath":"/zh-Hant/blog/tags","count":5}')}}]);

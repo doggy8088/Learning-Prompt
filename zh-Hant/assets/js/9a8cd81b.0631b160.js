@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkribir_website=self.webpackChunkribir_website||[]).push([[5686],{6921:e=>{e.exports=JSON.parse('{"label":"feature","permalink":"/zh-Hant/blog/tags/feature","allTagsPath":"/zh-Hant/blog/tags","count":1}')}}]);
