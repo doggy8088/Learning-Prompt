@@ -3,18 +3,18 @@ sidebar_position: 5
 ---
 # 👺 Anime List
 
-这个 List 里的内容，我会在我的[小红书账号](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上同步更新。感兴趣的朋友可以去关注下。
+這個 List 裡的內容，我會在我的[小紅書賬號](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上同步更新。感興趣的朋友可以去關注下。
 
-| <div style={{width:180}}>**照片**</div>  | **名称**                     | **介绍**                                                                                                                                            |
+| <div style={{width:180}}>**照片**</div>  | **名稱**                     | **介紹**                                                                                                                                            |
 | ------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  ![MJ128](../mj-tutorial-text-prompt/assets/MJ128.png)      | Chibi Anime Style          | Chibi Anime Style 是指卡通迷你风格。是一种独特的绘画风格，特别受到日本动漫迷和卡通迷的喜爱。该风格的特点是将角色绘制成缩小版的样式，更加可爱和卡通化。在这种风格下，一些角色的头比正常比例大得多，人物的描绘也更加简化，并且动画在绘制时常常用短暂时间的快速动作来传递动态效果。 |
-|  ![MJ129](../mj-tutorial-text-prompt/assets/MJ129.png)      | Gakuen Anime Style         | Gakuen Anime Style是指在日本动漫中常见的一种风格，主要呈现校园生活与高中生活的情境。这种风格的作品通常涉及到学生会、文化节、恋爱、友情、竞争等校园主题，角色也往往是年龄在16-18岁之间的学生。                                        |
-|  ![MJ130](../mj-tutorial-text-prompt/assets/MJ130.png)      | Gekiga Anime Style         | Gekiga Anime Style是一种比较沉重、严肃的日本漫画风格，常常涉及社会问题、人生哲理等成人主题。这种风格的特点是以黑色、灰色为主色调，图像表现力较强，人物表情和行为也更加真实。                                                   |
-|  ![MJ131](../mj-tutorial-text-prompt/assets/MJ131.png)      | J Horror Anime Style       | J Horror Anime Style是指恐怖题材的日本动漫风格，这种风格的作品常常涉及灵异、鬼怪、妖怪等超自然力量。                                                                                      |
-|  ![MJ132](../mj-tutorial-text-prompt/assets/MJ132.png)      | Jidaimono Anime Style      | Jidaimono Anime Style是指日本历史剧题材的动漫风格，通常呈现古代日本的历史背景和文化特征。这种风格的作品往往描绘战争、家族斗争、忍者、武士道、神话传说等元素，以及用具有浓重日本特色的艺术表现手法来传递历史文化的内涵。                            |
-|  ![MJ133](../mj-tutorial-text-prompt/assets/MJ133.png)      | Kawaii Anime Style         | Kawaii Anime Style是一种非常可爱和萌的动漫风格，通常呈现出像动物、小孩、角色等可爱的形象。这种风格的作品以颜色鲜明、轮廓粗糙、脸部表情夸张为主要特点。                                                              |
-|  ![MJ134](../mj-tutorial-text-prompt/assets/MJ134.jpeg)      | Mecha Anime Style          | Mecha Anime Style是以机器人为主题的日本动漫风格，通常呈现出大型机器、机甲战争、铁甲舞者等元素。这种风格的作品常常运用科幻、未来世界设定、大规模战斗等元素，以及动态的战斗场面和机器人设计，塑造出复杂的机器人世界和角色人物关系。                         |
-|  ![MJ135](../mj-tutorial-text-prompt/assets/MJ135.png)      | Realistic Anime Style      | Realistic Anime Style是一种真实主义的日本动漫风格，通常呈现出秉持着更加现实和真实的人物形象和情节。这种风格的作品表现力很强，人物形象、环境场景等具有更多的细节，刻画出更为真实的情感世界。                                          |
-|  ![MJ136](../mj-tutorial-text-prompt/assets/MJ136.png)      | Semi-Realistic Anime Style | Semi-Realistic Anime Style是在Realistic Anime Style和 Anime Style之间的一个中间状态的风格，风格上比较真实，但是仍带有一定的动漫风格。这种风格的作品通常涉及到带有现实性的情节和人物，但是也常常运用到动漫风格的表现手法。        |
-|  ![MJ137](../mj-tutorial-text-prompt/assets/MJ137.png)      | Shoji Anime Style          | Shoji Anime Style是按照日本漫画家小学馆长生涯逐步形成的一种风格。这种风格的作品，通常以聚焦单个人物或小团体的故事为主线。其特点是画面明亮，颜色和谐，人物表情和行为搞笑夸张，情节简洁易懂。                                            |
-|  ![MJ138](../mj-tutorial-text-prompt/assets/MJ138.png)      | Kemonomimi Anime Style     | Kemonomimi Anime Style是一种带有动物耳朵和尾巴等特征的日本动漫风格，通常以人类或近似人类的形象呈现，但却带有不同种类的动物耳朵和尾巴等特征。这种风格的作品与少女漫画(girls' manga)、少年漫画(boys' manga)等风格都有一定的关系。          |
+|  ![MJ128](../mj-tutorial-text-prompt/assets/MJ128.png)      | Chibi Anime Style          | Chibi Anime Style 是指卡通迷你風格。是一種獨特的繪畫風格，特別受到日本動漫迷和卡通迷的喜愛。該風格的特點是將角色繪製成縮小版的樣式，更加可愛和卡通化。在這種風格下，一些角色的頭比正常比例大得多，人物的描繪也更加簡化，並且動畫在繪製時常常用短暫時間的快速動作來傳遞動態效果。 |
+|  ![MJ129](../mj-tutorial-text-prompt/assets/MJ129.png)      | Gakuen Anime Style         | Gakuen Anime Style是指在日本動漫中常見的一種風格，主要呈現校園生活與高中生活的情境。這種風格的作品通常涉及到學生會、文化節、戀愛、友情、競爭等校園主題，角色也往往是年齡在16-18歲之間的學生。                                        |
+|  ![MJ130](../mj-tutorial-text-prompt/assets/MJ130.png)      | Gekiga Anime Style         | Gekiga Anime Style是一種比較沉重、嚴肅的日本漫畫風格，常常涉及社會問題、人生哲理等成人主題。這種風格的特點是以黑色、灰色為主色調，影象表現力較強，人物表情和行為也更加真實。                                                   |
+|  ![MJ131](../mj-tutorial-text-prompt/assets/MJ131.png)      | J Horror Anime Style       | J Horror Anime Style是指恐怖題材的日本動漫風格，這種風格的作品常常涉及靈異、鬼怪、妖怪等超自然力量。                                                                                      |
+|  ![MJ132](../mj-tutorial-text-prompt/assets/MJ132.png)      | Jidaimono Anime Style      | Jidaimono Anime Style是指日本歷史劇題材的動漫風格，通常呈現古代日本的歷史背景和文化特徵。這種風格的作品往往描繪戰爭、家族鬥爭、忍者、武士道、神話傳說等元素，以及用具有濃重日本特色的藝術表現手法來傳遞歷史文化的內涵。                            |
+|  ![MJ133](../mj-tutorial-text-prompt/assets/MJ133.png)      | Kawaii Anime Style         | Kawaii Anime Style是一種非常可愛和萌的動漫風格，通常呈現出像動物、小孩、角色等可愛的形象。這種風格的作品以顏色鮮明、輪廓粗糙、臉部表情誇張為主要特點。                                                              |
+|  ![MJ134](../mj-tutorial-text-prompt/assets/MJ134.jpeg)      | Mecha Anime Style          | Mecha Anime Style是以機器人為主題的日本動漫風格，通常呈現出大型機器、機甲戰爭、鐵甲舞者等元素。這種風格的作品常常運用科幻、未來世界設定、大規模戰鬥等元素，以及動態的戰鬥場面和機器人設計，塑造出複雜的機器人世界和角色人物關係。                         |
+|  ![MJ135](../mj-tutorial-text-prompt/assets/MJ135.png)      | Realistic Anime Style      | Realistic Anime Style是一種真實主義的日本動漫風格，通常呈現出秉持著更加現實和真實的人物形象和情節。這種風格的作品表現力很強，人物形象、環境場景等具有更多的細節，刻劃出更為真實的情感世界。                                          |
+|  ![MJ136](../mj-tutorial-text-prompt/assets/MJ136.png)      | Semi-Realistic Anime Style | Semi-Realistic Anime Style是在Realistic Anime Style和 Anime Style之間的一個中間狀態的風格，風格上比較真實，但是仍帶有一定的動漫風格。這種風格的作品通常涉及到帶有現實性的情節和人物，但是也常常運用到動漫風格的表現手法。        |
+|  ![MJ137](../mj-tutorial-text-prompt/assets/MJ137.png)      | Shoji Anime Style          | Shoji Anime Style是按照日本漫畫家小學館長生涯逐步形成的一種風格。這種風格的作品，通常以聚焦單個人物或小團體的故事為主線。其特點是畫面明亮，顏色和諧，人物表情和行為搞笑誇張，情節簡潔易懂。                                            |
+|  ![MJ138](../mj-tutorial-text-prompt/assets/MJ138.png)      | Kemonomimi Anime Style     | Kemonomimi Anime Style是一種帶有動物耳朵和尾巴等特徵的日本動漫風格，通常以人類或近似人類的形象呈現，但卻帶有不同種類的動物耳朵和尾巴等特徵。這種風格的作品與少女漫畫(girls' manga)、少年漫畫(boys' manga)等風格都有一定的關係。          |

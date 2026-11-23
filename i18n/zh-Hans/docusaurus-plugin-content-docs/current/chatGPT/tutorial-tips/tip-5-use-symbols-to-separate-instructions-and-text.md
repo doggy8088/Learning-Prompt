@@ -2,22 +2,22 @@
 sidebar_position: 5
 ---
 
-# 技巧 5：使用特殊符号指令和需要处理的文本分开
+# 技巧 5：使用特殊符號指令和需要處理的文字分開
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-不管是信息总结，还是信息提取，你一定会输入大段文字，甚至多段文字，此时有个小技巧。
+不管是訊息總結，還是訊息提取，你一定會輸入大段文字，甚至多段文字，此時有個小技巧。
 
-可以用“”“将指令和文本分开。根据我的测试，如果你的文本有多段，增加”“”会提升 AI 反馈的准确性（这个技巧来自于 OpenAI 的 API [最佳实践文档](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)）
+可以用『』『將指令和文字分開。根據我的測試，如果你的文字有多段，增加』『』會提升 AI 反饋的準確性（這個技巧來自於 OpenAI 的 API [最佳實踐文件](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)）
 
 :::info
-感谢 CraneHuang6 的提醒，这里还能用 ### 符号区隔，不过我一般会用“”“ ，因为我有的时候会用 # 作为格式示例，太多 # 的话 prompt 会看起来比较晕 😂
+感謝 CraneHuang6 的提醒，這裡還能用 ### 符號區隔，不過我一般會用『』『 ，因為我有的時候會用 # 作為格式範例，太多 # 的話 prompt 會看起來比較暈 😂
 :::
 
-像我们之前写的 prompt 就属于 Less effective prompt。为什么呢？据我的测试，主要还是 AI 不知道什么是指令，什么是待处理的内容，用符号分隔开来会更利于 AI 区分。
+像我們之前寫的 prompt 就屬於 Less effective prompt。為什麼呢？據我的測試，主要還是 AI 不知道什麼是指令，什麼是待處理的內容，用符號分隔開來會更利於 AI 區分。
 
 ```other
 Please summarize the following sentences to make them easier to understand.
@@ -34,7 +34,7 @@ OpenAI is an American artificial intelligence (AI) research laboratory consistin
 """
 ```
 
-另外，在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，还提到，你可以使用其他特殊符号来分割文本和 prompt，比如`<>`，`<tag></tag>` 等，课程中的案例是这样的（注意这个是 python 代码，需要关注的是 prompt 里的 text）：
+另外，在吳恩達的 ChatGPT Prompt Engineering [課程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，還提到，你可以使用其他特殊符號來分割文字和 prompt，比如`<>`，`<tag></tag>` 等，課程中的案例是這樣的（注意這個是 python 程式碼，需要關注的是 prompt 裡的 text）：
 
 ```python
 text = f"""
@@ -57,4 +57,4 @@ into a single sentence.
 """
 ```
 
-如果你是在开发一款允许用户输入内容，并对内容进行总结的 AI 产品，那你就可以使用到这个技巧。
+如果你是在開發一款允許使用者輸入內容，並對內容進行總結的 AI 產品，那你就可以使用到這個技巧。

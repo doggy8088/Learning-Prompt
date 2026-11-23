@@ -3,9 +3,9 @@ sidebar_position: 5
 ---
 # PAL Models
 
-PAL Models，全称为 Program-Aided Language Models。需要各位注意，这个方法，真的非常高级，甚至我觉得有点 Hack，而且经过我的多次测试，我觉得以 ChatGPT 目前的能力，已经不再需要使用这个方法。
+PAL Models，全稱為 Program-Aided Language Models。需要各位注意，這個方法，真的非常高階，甚至我覺得有點 Hack，而且經過我的多次測試，我覺得以 ChatGPT 目前的能力，已經不再需要使用這個方法。
 
-但我在很多 PE 的教程里都有看到这个方法，所以我这里就简单介绍一下，这个方法来自于 2022 年，Luyu Gao [等人的研究](https://arxiv.org/pdf/2211.10435.pdf)，根据他们的研究，在 LLM 模型中，即使使用了前面提到的 Chain of Thought 的方法，也未必能拿到答案，论文中使用的 prompt 是这样的：
+但我在很多 PE 的教程裡都有看到這個方法，所以我這裡就簡單介紹一下，這個方法來自於 2022 年，Luyu Gao [等人的研究](https://arxiv.org/pdf/2211.10435.pdf)，根據他們的研究，在 LLM 模型中，即使使用了前面提到的 Chain of Thought 的方法，也未必能拿到答案，論文中使用的 prompt 是這樣的：
 
 ```other
 Q: Roger has 5 tennis balls. He buys 2 more cans of
@@ -21,7 +21,7 @@ store returned 6 unsold loaves. How many loaves of
 bread did they have left?
 ```
 
-论文里提到，当年他们的模型的 Output 是这样的：
+論文裡提到，當年他們的模型的 Output 是這樣的：
 
 ```other
 A: The bakers started with 200 loaves. They sold 93 in
@@ -31,13 +31,13 @@ they had 200 - 132 - 6 = 62 loaves left.
 The answer is 62.
 ```
 
-如果你现在将这个 prompt 输入到最新的 ChatGPT 答案已经是正确的：
+如果你現在將這個 prompt 輸入到最新的 ChatGPT 答案已經是正確的：
 
 ```other
 A: The bakers baked 200 loaves of bread. They sold 93 + 39 = 132 loaves. After the grocery store returned 6 unsold loaves, the bakery had 200 - 132 + 6 = 74 loaves of bread left. The answer is 74.
 ```
 
-当年 Luyu Gao 的解决方法是在 prompt 里引入代码，并引导模型使用代码来运算和思考，最后答案就是正确的：
+當年 Luyu Gao 的解決方法是在 prompt 裡引入程式碼，並引導模型使用程式碼來運算和思考，最後答案就是正確的：
 
 ![PAL001.png](./assets/PAL001.png)
 

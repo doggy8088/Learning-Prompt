@@ -8,11 +8,11 @@
    <strong>ChatGPT and Midjourney tutorials are now included!</strong>
 </p>
 <h4>
-    <a href="https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/welcome.mdx">Start Learning</a>
+    <a href="https://github.com/doggy8088/Learning-Prompt/blob/main/docs/welcome.mdx">Start Learning</a>
     <span> | </span>
     <a href="https://discord.gg/esyCEGhmq9">Our Discord</a>
     <span> | </span>
-    <a href="https://github.com/thinkingjimmy/Learning-Prompt/blob/main/i18n/zh-Hans/docusaurus-plugin-content-docs/current/welcome.mdx">中文版本</a>
+    <a href="https://github.com/doggy8088/Learning-Prompt/blob/main/i18n/zh-Hans/docusaurus-plugin-content-docs/current/welcome.mdx">中文版本</a>
 </h4>
 </div>
 
@@ -20,9 +20,9 @@
 
 This tutorial has three parts. The content covers my journey of learning Prompt Engineering, summarizing some of the experiences and methods. If you are learning Prompt Engineering, I hope this tutorial can help.
 
-1. [AI 101](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/ai-101.md): An AI tutorial for everyone. Still working hard on it. Stay tuned.
-2. [ChatGPT Tutorial](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/chatgpt-learning-path.mdx): From basics to advanced, from a user's perspective, this teaches you how to use ChatGPT and how to use it even better.
-3. [Midjourney Tutorial](https://github.com/thinkingjimmy/Learning-Prompt/blob/main/docs/midjourney-learning-path.md): Through various examples, this teaches you how to use Midjourney. Even as a beginner, after reading this, you'll be able to quickly get started.
+1. [AI 101](https://github.com/doggy8088/Learning-Prompt/blob/main/docs/ai-101.md): An AI tutorial for everyone. Still working hard on it. Stay tuned.
+2. [ChatGPT Tutorial](https://github.com/doggy8088/Learning-Prompt/blob/main/docs/chatgpt-learning-path.mdx): From basics to advanced, from a user's perspective, this teaches you how to use ChatGPT and how to use it even better.
+3. [Midjourney Tutorial](https://github.com/doggy8088/Learning-Prompt/blob/main/docs/midjourney-learning-path.md): Through various examples, this teaches you how to use Midjourney. Even as a beginner, after reading this, you'll be able to quickly get started.
 
 What this is not:
 
@@ -47,7 +47,7 @@ You'll see these emojis:
 
 ## How to contribute?
 
-If you can, please star this on [Github Page](https://github.com/thinkingjimmy/Learning-Prompt) or share the tutorial. Thanks!
+If you can, please star this on [Github Page](https://github.com/doggy8088/Learning-Prompt) or share the tutorial. Thanks!
 
 When reading:
 
@@ -61,7 +61,7 @@ I'll credit all helpers on the Thank You page! 😁
 
 My friends and I also built an AI app. If ChatGPT doesn't work for you, try our [PoleStar Chat](https://github.com/thinkingjimmy/PoleStarChat):
 
-![PoleStar_banner-3c6138a5d0d8c70b44e04d2a88d06cd0](https://github.com/thinkingjimmy/Learning-Prompt/assets/37492595/c0da7ec8-db42-4918-8854-cd8e105e9701)
+![PoleStar_banner-3c6138a5d0d8c70b44e04d2a88d06cd0](https://github.com/doggy8088/Learning-Prompt/assets/37492595/c0da7ec8-db42-4918-8854-cd8e105e9701)
 
 
 ## Licenses
@@ -88,3 +88,5 @@ Midjourney:
 1. [Midjourney Guide](https://docs.midjourney.com)
 2. [Midlibrary](https://www.midlibrary.io/)
 3. [Aituts](https://aituts.com/)
+
+本站正體中文翻譯由 [Will 保哥](http:\/\/blog.miniasp.com\/) 協助完成，原文取自[簡體中文版本](https:\/\/github.com\/thinkingjimmy\/Learning-Prompt)。若有任何問題，歡迎造訪 [Will 保哥的技術交流中心](https:\/\/www.facebook.com\/will.fans) 與我聯繫！

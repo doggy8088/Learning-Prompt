@@ -2,17 +2,17 @@
 sidebar_position: 2
 ---
 
-# 技巧二：多实验
+# 技巧二：多實驗
 
-我还想教给各位第二个技巧：多试验。
+我還想教給各位第二個技巧：多試驗。
 
-图片生成遇到不符合预期的情况，不要慌，分析问题，然后使用控制变量法，一个个调整图片，不要急，上面我写的 prompt 还有一个地方，不知道各位有没有注意，就是开头的 stock photo，试试将这两个词删掉会怎样？
+圖片生成遇到不符合預期的情況，不要慌，分析問題，然後使用控制變數法，一個個調整圖片，不要急，上面我寫的 prompt 還有一個地方，不知道各位有沒有注意，就是開頭的 stock photo，試試將這兩個詞刪掉會怎樣？
 
 ```other
 two Asian men in suits shaking hands,say goodbye in front of the main entrance of the office building, focus on two hands, taken with Canon, background bokeh
 ```
 
-生成结果也依然满足需求，而且手指的数量也准确了，说明这个 Stock Image 对模型的影响不是很大。
+生成結果也依然滿足需求，而且手指的數量也準確了，說明這個 Stock Image 對模型的影響不是很大。
 
 <img 
     src={

@@ -9,35 +9,35 @@ sidebar_position: 7
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-基于上述的第三点缺点，研究人员就找到了一个叫 Chain of Thought 的技巧。
+基於上述的第三點缺點，研究人員就找到了一個叫 Chain of Thought 的技巧。
 
-这个技巧使用起来非常简单，只需要在问题的结尾里放一句 `Let‘s think step by step` （让我们一步步地思考），模型输出的答案会更加准确。
+這個技巧使用起來非常簡單，只需要在問題的結尾裡放一句 `Let「s think step by step` （讓我們一步步地思考），模型輸出的答案會更加準確。
 
-这个技巧来自于 Kojima 等人 2022 年的论文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在论文里提到，当我们向模型提一个逻辑推理问题时，模型返回了一个错误的答案，但如果我们在问题最后加入 `Let‘s think step by step` 这句话之后，模型就生成了正确的答案：
+這個技巧來自於 Kojima 等人 2022 年的論文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在論文裡提到，當我們向模型提一個邏輯推理問題時，模型回傳了一個錯誤的答案，但如果我們在問題最後加入 `Let「s think step by step` 這句話之後，模型就生成了正確的答案：
 
 ![ZeroShotChainOfThought001.png](./assets/ZeroShotChainOfThought001.png)
 
-论文里有讲到原因，感兴趣的朋友可以去看看，我简单解释下为什么（🆘 如果你有更好的解释，不妨反馈给我）：
+論文裡有講到原因，感興趣的朋友可以去看看，我簡單解釋下為什麼（🆘 如果你有更好的解釋，不妨反饋給我）：
 
-1. 首先各位要清楚像 ChatGPT 这类产品，它是一个统计语言模型，本质上是基于过去看到过的所有数据，用统计学意义上的预测结果进行下一步的输出（这也就是为什么你在使用 ChatGPT 的时候，它的答案是一个字一个字地吐出来，而不是直接给你的原因，因为答案是一个字一个字算出来的）。
-2. 当它拿到的数据里有逻辑，它就会通过统计学的方法将这些逻辑找出来，并将这些逻辑呈现给你，让你感觉到它的回答很有逻辑。
-3. 在计算的过程中，模型会进行很多假设运算（不过暂时不知道它是怎么算的）。比如解决某个问题是从 A 到 B 再到 C，中间有很多假设。
-4. 它第一次算出来的答案错误的原因，只是因为它在中间跳过了一些步骤（B）。而让模型一步步地思考，则有助于其按照完整的逻辑链（A > B > C）去运算，而不会跳过某些假设，最后算出正确的答案。
+1. 首先各位要清楚像 ChatGPT 這類產品，它是一個統計語言模型，本質上是基於過去看到過的所有資料，用統計學意義上的預測結果進行下一步的輸出（這也就是為什麼你在使用 ChatGPT 的時候，它的答案是一個字一個字地吐出來，而不是直接給你的原因，因為答案是一個字一個字算出來的）。
+2. 當它拿到的資料裡有邏輯，它就會透過統計學的方法將這些邏輯找出來，並將這些邏輯呈現給你，讓你感覺到它的回答很有邏輯。
+3. 在計算的過程中，模型會進行很多假設運算（不過暫時不知道它是怎麼算的）。比如解決某個問題是從 A 到 B 再到 C，中間有很多假設。
+4. 它第一次算出來的答案錯誤的原因，只是因為它在中間跳過了一些步驟（B）。而讓模型一步步地思考，則有助於其按照完整的邏輯鏈（A > B > C）去運算，而不會跳過某些假設，最後算出正確的答案。
 
-按照论文里的解释，零样本思维链涉及两个补全结果，左侧气泡表示基于提示输出的第一次的结果，右侧气泡表示其收到了第一次结果后，将最开始的提示一起拿去运算，最后得出了正确的答案：
+按照論文裡的解釋，零樣本思維鏈涉及兩個補全結果，左側氣泡表示基於提示輸出的第一次的結果，右側氣泡表示其收到了第一次結果後，將最開始的提示一起拿去運算，最後得出了正確的答案：
 
 ![ZeroShotChainOfThought002.png](./assets/ZeroShotChainOfThought002.png)
 
-这个技巧，用于解复杂问题有用外，还适合生成一些连贯主题的内容，比如写长篇文章、电影剧本等。
+這個技巧，用於解複雜問題有用外，還適合生成一些連貫主題的內容，比如寫長篇文章、電影劇本等。
 
-但需要注意其缺点，连贯不代表它就一定不会算错，如果其中某一步骤算错了，错误会因为逻辑链，逐步将错误积累，导致生成的文本可能出现与预期不符的内容。
+但需要注意其缺點，連貫不代表它就一定不會算錯，如果其中某一步驟算錯了，錯誤會因為邏輯鏈，逐步將錯誤積累，導致生成的文字可能出現與預期不符的內容。
 
-另外，根据 Wei 等人在 [2022 年的论文](https://arxiv.org/pdf/2201.11903.pdf)表明，还有它仅在大于等于 100B 参数的模型中使用才会有效。如果你使用的是小样本模型，这个方法不会生效。
+另外，根據 Wei 等人在 [2022 年的論文](https://arxiv.org/pdf/2201.11903.pdf)表明，還有它僅在大於等於 100B 引數的模型中使用才會有效。如果你使用的是小樣本模型，這個方法不會生效。
 
 ---
 
-2023-04-12 更新（感谢[qq-740943515](https://github.com/qq-740943515)分享）：
-根据 Yongchao Zhou 等人的[最新论文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是：
+2023-04-12 更新（感謝[qq-740943515](https://github.com/qq-740943515)分享）：
+根據 Yongchao Zhou 等人的[最新論文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是：
 
 ```
 Let's work this out in a step by step way to be sure we have the right answer.
@@ -45,7 +45,7 @@ Let's work this out in a step by step way to be sure we have the right answer.
 
 ---
 
-在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一个这个技巧的另一种用法，不仅仅只是让 AI 按步骤行事，还会告知 AI 每一步要做什么。比如这个案例（注意这个是 python 代码）：
+在吳恩達的 ChatGPT Prompt Engineering [課程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一個這個技巧的另一種用法，不僅僅只是讓 AI 按步驟行事，還會告知 AI 每一步要做什麼。比如這個案例（注意這個是 python 程式碼）：
 
 ```
 prompt_2 = f"""
@@ -68,12 +68,12 @@ Text: <{text}>
 """
 ```
 
-简单解释下这个代码：
+簡單解釋下這個程式碼：
 
-1. 开头是让 AI 按照 1 ～ 4 步运行
-2. 然后再让 AI 根据特定格式输出内容
+1. 開頭是讓 AI 按照 1 ～ 4 步執行
+2. 然後再讓 AI 根據特定格式輸出內容
 
-最后 AI 的输出是这样的：
+最後 AI 的輸出是這樣的：
 
 ```
 Summary: Jack and Jill go on a quest to fetch water, but misfortune strikes and they tumble down the hill, returning home slightly battered but with their adventurous spirits undimmed.
@@ -82,7 +82,7 @@ Names: Jack, Jill
 Output JSON: {"french_summary": "Jack et Jill partent en quête d'eau, mais la malchance frappe et ils dégringolent la colline, rentrant chez eux légèrement meurtris mais avec leurs esprits aventureux intacts.", "num_names": 2}
 ```
 
-上述的案例只是将任务拆解，能让 AI 生成的结果更加符合要求，这个方法同样能提升 AI 的回答准确性，比如这个案例：
+上述的案例只是將任務拆解，能讓 AI 生成的結果更加符合要求，這個方法同樣能提升 AI 的回答準確性，比如這個案例：
 
 ```
 Determine if the student's solution is correct or not.
@@ -112,7 +112,7 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 
 ```
 
-AI 的回答是「The student's solution is correct」。但其实学生的答案是错误的，应该 360x + 100,000，我们将 prompt 调整成这样：
+AI 的回答是「The student's solution is correct」。但其實學生的答案是錯誤的，應該 360x + 100,000，我們將 prompt 調整成這樣：
 
 ```python
 prompt = f"""
@@ -171,7 +171,7 @@ Actual solution:
 """
 ```
 
-本质上，也是将任务分拆成多步，这次 AI 输出的结果是这样的（结果就是正确的了）：
+本質上，也是將任務分拆成多步，這次 AI 輸出的結果是這樣的（結果就是正確的了）：
 
 ```
 Let x be the size of the installation in square feet.

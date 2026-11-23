@@ -1,9 +1,9 @@
 {
-    "label": "📚 资料 & 产品推荐",
+    "label": "📚 資料 & 產品推薦",
     "position": 6,
     "link": {
       "type": "generated-index",
-      "description": "汇集各种我个人认为不错的资料和产品。"
+      "description": "彙集各種我個人認為不錯的資料和產品。"
       
     }
 }

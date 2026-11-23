@@ -1,9 +1,9 @@
 {
-  "label": "📖 语言模型介绍篇",
+  "label": "📖 語言模型介紹篇",
   "position": 0,
   "link": {
     "type": "generated-index",
-    "title": "📖 语言模型介绍篇",
-    "description": "主要会讲解一下什么是语言模型，以及其局限性。"
+    "title": "📖 語言模型介紹篇",
+    "description": "主要會講解一下什麼是語言模型，以及其侷限性。"
   }
 }

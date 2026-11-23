@@ -2,21 +2,21 @@
 sidebar_position: 8
 ---
 
-# 场景 8：化繁为简——信息提取
+# 場景 8：化繁為簡——訊息提取
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-## 场景介绍
+## 場景介紹
 
-介绍完信息总结，再聊聊信息提取，我认为这个场景是继场景 3 推理以外，第二个值得深挖的场景。这个场景有非常多的有意思的场景，比如：
+介紹完訊息總結，再聊聊訊息提取，我認為這個場景是繼場景 3 推理以外，第二個值得深挖的場景。這個場景有非常多的有意思的場景，比如：
 
-1. 将一大段文字，甚至网页里的内容，按要求转为一个表格。按照这个思路你可以尝试做一个更智能的，更易懂的爬虫插件。
-2. 按照特定格式对文章内容进行信息归类。
+1. 將一大段文字，甚至網頁裡的內容，按要求轉為一個表格。按照這個思路你可以嘗試做一個更智慧的，更易懂的爬蟲外掛。
+2. 按照特定格式對文章內容進行訊息歸類。
 
-第二个可能比较难理解，举个 OpenAI 里的[例子](https://platform.openai.com/playground/p/DoMbgEMmkXJ5xOyunwFZDHdg?model=text-davinci-003)，它的 prompt 是这样的（为了有足够空间显示内容，我仅节选了 text 里的部分内容，完整内容，可以[点击这里](https://platform.openai.com/playground/p/DoMbgEMmkXJ5xOyunwFZDHdg?model=text-davinci-003)查看）：
+第二個可能比較難理解，舉個 OpenAI 裡的[例子](https://platform.openai.com/playground/p/DoMbgEMmkXJ5xOyunwFZDHdg?model=text-davinci-003)，它的 prompt 是這樣的（為了有足夠空間顯示內容，我僅節選了 text 裡的部分內容，完整內容，可以[點選這裡](https://platform.openai.com/playground/p/DoMbgEMmkXJ5xOyunwFZDHdg?model=text-davinci-003)檢視）：
 
 ```other
 Extract the important entities mentioned in the article below. First extract all company names, then extract all people names, then extract specific topics which fit the content and finally extract general overarching themes
@@ -38,7 +38,7 @@ Warp is a Rust-based terminal, reimagined from the ground up to help both indivi
 
 Terminal commands are typically difficult to remember, find and construct. Users often have to leave the terminal and search the web for answers and even then the results might not give them the right command to execute. Warp uses Codex to allow users to run a natural language command to search directly from within the terminal and get a result they can immediately use.
 
-“Codex allows Warp to make the terminal more accessible and powerful. Developers search for entire commands using natural language rather than trying to remember them or assemble them piecemeal. Codex-powered command search has become one of our game changing features.”
+『Codex allows Warp to make the terminal more accessible and powerful. Developers search for entire commands using natural language rather than trying to remember them or assemble them piecemeal. Codex-powered command search has become one of our game changing features.』
 
 —Zach Lloyd, Founder, Warp
 
@@ -47,14 +47,14 @@ Machinet helps professional Java developers write quality code by using Codex to
 
 Machinet was able to accelerate their development several-fold by switching from building their own machine learning systems to using Codex. The flexibility of Codex allows for the ability to easily add new features and capabilities saving their users time and helping them be more productive.
 
-“Codex is an amazing tool in our arsenal. Not only does it allow us to generate more meaningful code, but it has also helped us find a new design of product architecture and got us out of a local maximum.”
+『Codex is an amazing tool in our arsenal. Not only does it allow us to generate more meaningful code, but it has also helped us find a new design of product architecture and got us out of a local maximum.』
 
 —Vladislav Yanchenko, Founder, Machinet"""
 ```
 
-Prompt 有点长，我解释下，它是让 AI 将文章里的重点内容进行抽离，并将其根据特定格式进行输出。要求将文章里提到的公司、人名、主题都按照 comma separated list（按逗号空格分开）的方式罗列出来。
+Prompt 有點長，我解釋下，它是讓 AI 將文章裡的重點內容進行抽離，並將其根據特定格式進行輸出。要求將文章裡提到的公司、人名、主題都按照 comma separated list（按逗號空格分開）的方式羅列出來。
 
-最后的 output 是这样的：
+最後的 output 是這樣的：
 
 ```other
 Company names: OpenAI, Microsoft, GitHub, Pygma, Replit, Warp, Machinet
@@ -63,11 +63,11 @@ Specific topics: GPT-3, OpenAI API, Azure OpenAI Service, GitHub Copilot, Pygma,
 General themes: Natural language-to-code, Productivity, Problem solving, Creativity, Learning
 ```
 
-## **技巧 6：通过格式词阐述需要输出的格式**
+## **技巧 6：透過格式詞闡述需要輸出的格式**
 
-上述的案例，就是用到了这个技巧。这个技巧是技巧 2 的变种，比较常用于生成文本场景。其实在场景 7 中，你也可以用到这个技巧。
+上述的案例，就是用到了這個技巧。這個技巧是技巧 2 的變種，比較常用於生成文字場景。其實在場景 7 中，你也可以用到這個技巧。
 
-假设你想让 AI 总结一篇非常非常长的文章，并且按照特定格式给你总结，那你可以在文章前面明确输出的格式（为了不占用太多显示空间，我省略了正文内容，你可以在 OpenAI 的 Playground 看到[完整案例](https://platform.openai.com/playground/p/3U5Wx7RTIdNNC9Fg8fc44omi)）。它的意思其实是让 ChatGPT 按 Topic 总结，每个 Topic 里按照无序列表（就是里面那个 -）将每个 Topic 的主要观点罗列出来。
+假設你想讓 AI 總結一篇非常非常長的文章，並且按照特定格式給你總結，那你可以在文章前面明確輸出的格式（為了不佔用太多顯示空間，我省略了正文內容，你可以在 OpenAI 的 Playground 看到[完整案例](https://platform.openai.com/playground/p/3U5Wx7RTIdNNC9Fg8fc44omi)）。它的意思其實是讓 ChatGPT 按 Topic 總結，每個 Topic 裡按照無序清單（就是裡面那個 -）將每個 Topic 的主要觀點羅列出來。
 
 ```other
 Summarize the main points of the following speech
@@ -83,13 +83,13 @@ Topic 10: ..
 Text: """
 Thank you so much, Fred, for that lovely introduction. And thanks to the Atlantic Council for hosting me today.
 
-The course of the global economy over the past two years has been shaped by COVID-19 and our efforts to fight the pandemic. It’s now evident, though, that the war between Russia and Ukraine has redrawn the contours of the world economic outlook. Vladimir Putin’s unprovoked attack on Ukraine and its people is taking a devastating human toll, with lives tragically lost, families internally displaced or becoming refugees, and communities and cities destroyed.
+The course of the global economy over the past two years has been shaped by COVID-19 and our efforts to fight the pandemic. It」s now evident, though, that the war between Russia and Ukraine has redrawn the contours of the world economic outlook. Vladimir Putin」s unprovoked attack on Ukraine and its people is taking a devastating human toll, with lives tragically lost, families internally displaced or becoming refugees, and communities and cities destroyed.
 ...
 
 """
 ```
 
-Output 是这样的：
+Output 是這樣的：
 
 ```other
 Topic 1: The war in Ukraine
@@ -103,20 +103,20 @@ Topic 2: The global economy
 - The ultimate outcome for the global economy depends on the path of the war
 ```
 
-关于这个场景和技巧，我想再解释一下为什么潜力很大。根据我使用各种 Summary 或者信息提取的产品，我发现，AI 并不知道什么是重点，所以在总结的过程中，会丢失很多内容。如何引导 AI 进行总结，就变得非常重要，且具有一定的可玩性。
+關於這個場景和技巧，我想再解釋一下為什麼潛力很大。根據我使用各種 Summary 或者訊息提取的產品，我發現，AI 並不知道什麼是重點，所以在總結的過程中，會丟失很多內容。如何引導 AI 進行總結，就變得非常重要，且具有一定的可玩性。
 
 ---
 
-感谢 [AlexZhangji](https://github.com/AlexZhangji) 的分享，TA 提到一个使用此技巧的场景：
+感謝 [AlexZhangji](https://github.com/AlexZhangji) 的分享，TA 提到一個使用此技巧的場景：
 
-使用此技巧可以使输出更结构化。比如针对一篇文章进行问答，你不仅想要得到一个答案，也希望 ChatGPT 的答案符合特定的格式，方便你下一步进行自动化。
+使用此技巧可以使輸出更結構化。比如針對一篇文章進行問答，你不僅想要得到一個答案，也希望 ChatGPT 的答案符合特定的格式，方便你下一步進行自動化。
 
-比如问 "这里的债券 duration 是多少？" , 正常 GPT 模型的答案可能是 "债券 duration 是 4 年" 或 "duration 4 年"。
-ChatGPT 的回答不稳定，且不方便继续处理。
+比如問 "這裡的債券 duration 是多少？" , 正常 GPT 模型的答案可能是 "債券 duration 是 4 年" 或 "duration 4 年"。
+ChatGPT 的回答不穩定，且不方便繼續處理。
 
 解法：
-我们可以通过这个技巧，让模型理解我们预期的格式。并在此基础上，为了方便自动化，让模型输出特定的结构化答案 (比如 JSON/Markdown 等)。
-也可以方便集成更多的额外要求，比如增加一个"confidence level", 并通过 prompt 的形式指定这些数值的格式与甚至区间。
+我們可以透過這個技巧，讓模型理解我們預期的格式。並在此基礎上，為了方便自動化，讓模型輸出特定的結構化答案 (比如 JSON/Markdown 等)。
+也可以方便整合更多的額外要求，比如增加一個"confidence level", 並透過 prompt 的形式指定這些數值的格式與甚至區間。
 
 比如：
 
@@ -133,7 +133,7 @@ Answer:
 
 ---
 
-在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一个这个技巧的高级用法，在让 AI 按照特定格式输出内容的同时，还让 AI 根据内容是否满足特定条件，来判断应该输出什么结果，下面课程中的案例的 prompt（注意这个是 python 代码，有一些转义字符，可以不用管）：
+在吳恩達的 ChatGPT Prompt Engineering [課程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一個這個技巧的高階用法，在讓 AI 按照特定格式輸出內容的同時，還讓 AI 根據內容是否滿足特定條件，來判斷應該輸出什麼結果，下面課程中的案例的 prompt（注意這個是 python 程式碼，有一些轉義字元，可以不用管）：
 
 ```python
 You will be provided with text delimited by triple quotes.
@@ -151,13 +151,13 @@ then simply write \"No steps provided.\"
 \"\"\"{text}\"\"\"
 ```
 
-简单解释下，这个 prompt 分成两步：
+簡單解釋下，這個 prompt 分成兩步：
 
-让 AI 将输入的 text 转为步骤（就是 prompt 里的 Step 1、2）
+讓 AI 將輸入的 text 轉為步驟（就是 prompt 裡的 Step 1、2）
 
-然后还增加了一个判断，如果输入的 text 里没有 step 的内容，那么就输出 No Step
+然後還增加了一個判斷，如果輸入的 text 裡沒有 step 的內容，那麼就輸出 No Step
 
-假如输入的 text 是一个泡茶的步骤介绍：
+假如輸入的 text 是一個泡茶的步驟介紹：
 
 ```other
 Making a cup of tea is easy! First, you need to get some \
@@ -171,7 +171,7 @@ And that's it! You've got yourself a delicious \
 cup of tea to enjoy.
 ```
 
-那么 AI 输出的内容是这样的（因为内容中包含了步骤式的内容）：
+那麼 AI 輸出的內容是這樣的（因為內容中包含了步驟式的內容）：
 
 ```other
 Step 1 - Get some water boiling.
@@ -183,7 +183,7 @@ Step 6 - Add some sugar or milk to taste.
 Step 7 - Enjoy your delicious cup of tea!
 ```
 
-但如果我们输入的是这样的 text：
+但如果我們輸入的是這樣的 text：
 
 ```other
 The sun is shining brightly today, and the birds are \
@@ -197,7 +197,7 @@ perfect day to spend time outdoors and appreciate the \
 beauty of nature.
 ```
 
-从内容上看，这段话，没有任何步骤式的内容，所以 AI 的输出是这样的：
+從內容上看，這段話，沒有任何步驟式的內容，所以 AI 的輸出是這樣的：
 
 ```other
 No steps provided.

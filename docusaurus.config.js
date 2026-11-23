@@ -126,7 +126,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/thinkingjimmy/Learning-Prompt',
+            href: 'https://github.com/doggy8088/Learning-Prompt',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',

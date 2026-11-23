@@ -9,11 +9,11 @@ sidebar_position: 9
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-一些小的技巧，我会统一放在这里。
+一些小的技巧，我會統一放在這裡。
 
-## 在示例里加入特定符号，让模型知道如何处理特殊情况
+## 在範例里加入特定符號，讓模型知道如何處理特殊情況
 
-这个解释起来有点复杂，以下是 OpenAI 的官方 prompt，在一些奇怪的问题上比如 `What is Devz9` 的回答，你可以用？代替答案，让模型知道当遇到超出回答范围时，需要如何处理（注意：此方法在 playground 上有效，但在 ChatGPT 上无效）。
+這個解釋起來有點複雜，以下是 OpenAI 的官方 prompt，在一些奇怪的問題上比如 `What is Devz9` 的回答，你可以用？代替答案，讓模型知道當遇到超出回答範圍時，需要如何處理（注意：此方法在 playground 上有效，但在 ChatGPT 上無效）。
 
 ```other
 Q: Who is Batman?
@@ -35,7 +35,7 @@ Q: What is Kozar-09?
 A: 
 ```
 
-它的 Output 是这样的：
+它的 Output 是這樣的：
 
 ```other
 ?

@@ -2,14 +2,14 @@
 sidebar_position: 3
 ---
 
-# 技巧 3：使用引导词，引导模型输出特定内容
+# 技巧 3：使用引導詞，引導模型輸出特定內容
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-在代码生成场景里，有一个小技巧，上面提到的案例，其 prompt 还可以继续优化，在 prompt 最后，增加一个代码的引导，告知 AI 我已经将条件描述完了，你可以写代码了。
+在程式碼生成場景裡，有一個小技巧，上面提到的案例，其 prompt 還可以繼續最佳化，在 prompt 最後，增加一個程式碼的引導，告知 AI 我已經將條件描述完了，你可以寫程式碼了。
 
 Better：
 
@@ -20,11 +20,11 @@ Table students, columns = [DepartmentId, StudentId, StudentName]
 SELECT
 ```
 
-在 prompt 的最后增加 SELECT 可以很好地提示 AI 可以写 SQL 代码了。
+在 prompt 的最後增加 SELECT 可以很好地提示 AI 可以寫 SQL 程式碼了。
 
-同样的道理，如果你想让 AI 写 Python 代码，那 import 会是比较好的提示。但需要注意，这个只是告知 AI 可以写代码了，并不能告知 AI 写何种代码，你仍然需要在 prompt 里增加提示，告知 AI 要生成何种语言的代码。
+同樣的道理，如果你想讓 AI 寫 Python 程式碼，那 import 會是比較好的提示。但需要注意，這個只是告知 AI 可以寫程式碼了，並不能告知 AI 寫何種程式碼，你仍然需要在 prompt 裡增加提示，告知 AI 要生成何種語言的程式碼。
 
-在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，也提到这个技巧，只是在课程中，引导词并不是放在最后，而是在 prompt 里直接说明，让 AI 生成一个 JSON 格式的内容。课程中的例子是这样的（注意这个是 python 代码）：
+在吳恩達的 ChatGPT Prompt Engineering [課程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，也提到這個技巧，只是在課程中，引導詞並不是放在最後，而是在 prompt 裡直接說明，讓 AI 生成一個 JSON 格式的內容。課程中的例子是這樣的（注意這個是 python 程式碼）：
 
 ```python
 prompt = f"""
@@ -35,4 +35,4 @@ book_id, title, author, genre.
 """
 ```
 
-我简单解释下，其关键是在 prompt 里跟 AI 说明，需要 AI 按照 JSON 格式输出内容。
+我簡單解釋下，其關鍵是在 prompt 裡跟 AI 說明，需要 AI 按照 JSON 格式輸出內容。

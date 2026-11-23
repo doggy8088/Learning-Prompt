@@ -47,11 +47,11 @@ Recently, I learned that a friend of mine used an AI tool to assist in preparing
 Using the previous topic as an example, we can first write our answer in your language (it is best to use our own real experience, so that it will be easier to memorize or recite), here is a Chinese version:
 
 > Describe a car journey that you remember well. You should say:
-> - When it was：两年前的秋天
+> - When it was：兩年前的秋天
 > - Where you went：新疆
-> - What did you do：租了一辆车，从乌鲁木齐自驾到北疆，一路上经过不同的风景点，花了 6 天时间
-> - Who was with you：两个好朋友
-> - And explain how you felt about the journey：一直想去新疆自驾游，终于实现梦想，很兴奋；看到美丽的自然风光，很震撼
+> - What did you do：租了一輛車，從烏魯木齊自駕到北疆，一路上經過不同的風景點，花了 6 天時間
+> - Who was with you：兩個好朋友
+> - And explain how you felt about the journey：一直想去新疆自駕遊，終於實現夢想，很興奮；看到美麗的自然風光，很震撼
 
 Then, input the topic and the written answer into the AI tool, and you will get a sample essay.
 
