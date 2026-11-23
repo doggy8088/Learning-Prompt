@@ -21,13 +21,13 @@ const config = {
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // to replace "en" with "zh-Hant".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-Hans'],
+    locales: ['en', 'zh-Hant'],
     localeConfigs: {
       zh: {
-        htmlLang: 'zh-Hans',
+        htmlLang: 'zh-Hant',
       },
       en: {
         htmlLang: 'en-GB',
